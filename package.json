@@ -1,0 +1,16 @@
+{
+  "name": "performance-notes",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "~3.8.6",
+    "gulp-assemble": "~0.1.7",
+    "gulp-eslint": "~0.1.8"
+  }
+}
