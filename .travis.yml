@@ -12,11 +12,12 @@ language: node_js
 node_js:
   - 0.10
 
-before_install:
+before_script:
   - npm install -g gulp
   - git clone --quiet https://github.com/makotot/performance-notes.git build
   - pushd build
   - git checkout -b gh-pages
+  - npm install
   - popd
 
 script:
