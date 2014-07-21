@@ -15,9 +15,9 @@ node_js:
 before_script:
   - npm install -g gulp
   - git clone --quiet https://github.com/makotot/performance-notes.git build
-  - pushd build
+  - cd build
   - git checkout -b gh-pages
-  - popd
+  - cd ../
 
 script:
   - gulp ci
