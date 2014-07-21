@@ -13,8 +13,8 @@ node_js:
 
 before_install:
   - npm install -g gulp
-  - git clone --quiet https://github.com/makotot/performance-notes.git
-  - pushd _gh-pages
+  - git clone --quiet https://github.com/makotot/performance-notes.git build
+  - pushd build
   - git checkout -b gh-pages
   - popd
 
