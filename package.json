@@ -2,7 +2,7 @@
   "name": "performance-notes",
   "version": "0.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "Gulpfile.js",
   "scripts": {
     "test": "gulp"
   },
