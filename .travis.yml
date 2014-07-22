@@ -17,11 +17,13 @@ before_script:
   - git clone --quiet https://github.com/makotot/performance-notes.git build
   - cd build
   - git checkout -b gh-pages
+  - cd ../
 
 script:
   - gulp ci
 
 after_success:
+  - cd build && ls - la
   - git add -A
   - git commit -m 'update'
   - '[ "$TRAVIS_BRANCH" == "master" ] && [ $GH_TOKEN ] && git push -fq https://$GH_TOKEN@github.com/$GH_REPO.git gh-pages 2> /dev/null'
