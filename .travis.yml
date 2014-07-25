@@ -17,8 +17,11 @@ branches:
     - master
 
 before_script:
+  - npm install -g gulp
 
 script:
   - gulp ci
 
 after_success:
+  - ./deploy.sh
+
