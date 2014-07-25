@@ -1,6 +1,6 @@
 #!/bin/bash
 
-rm !(_gh-pages)
+find * -maxdepth 0 -name '_gh-pages' -prune -o -exec rm -rf '{}' ';'
 cd _gh-pages/
 git init
 git config user.name "${GIT_COMITTER_NAME}"
