@@ -1,7 +1,7 @@
 #!/bin/bash
 
-shopt -s extglob
-rm !(_gh-pages)
+export GLOBINGNORE="_gh-pages"
+rm -rf *
 
 cd _gh-pages/
 git init
