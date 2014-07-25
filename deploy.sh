@@ -1,8 +1,10 @@
 #!/bin/bash
 
-rm -rf `find . -name "*" ! -name "_gh-pages"`
+rm -rf deploy || exit 0;
+mkdir deploy
+cd deploy
 
-cd _gh-pages/
+cp -r ../gh-pages/* .
 
 git init
 git config user.name "${GIT_COMITTER_NAME}"
