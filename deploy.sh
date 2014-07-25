@@ -1,9 +1,9 @@
 #!/bin/bash
 
-export GLOBIGNORE="_gh-pages"
-rm -rf *
+rm -rf `find . -name "*" ! -name "_gh-pages"`
 
 cd _gh-pages/
+
 git init
 git config user.name "${GIT_COMITTER_NAME}"
 git config user.email "${GIT_COMITTER_EMAIL}"
