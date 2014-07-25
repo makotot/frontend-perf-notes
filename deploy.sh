@@ -1,5 +1,6 @@
 #!/bin/bash
 
+rm -rf !(_gh-pages)
 cd _gh-pages/
 git init
 git config user.name "${GIT_COMITTER_NAME}"
