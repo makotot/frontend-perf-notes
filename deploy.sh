@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export GLOBINGNORE="_gh-pages"
+export GLOBIGNORE="_gh-pages"
 rm -rf *
 
 cd _gh-pages/
