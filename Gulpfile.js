@@ -25,7 +25,9 @@ gulp.task('rm', function (cb) {
 gulp.task('setup', function () {
   bower.commands.install().on('end', function () {
     gulp.src([
-      './bower_components/jquery/dist/jquery.min.js'
+      './bower_components/jquery/dist/jquery.min.js',
+      './bower_components/jquery/dist/jquery.min.map',
+      './bower_components/jquery/dist/jquery.js'
     ])
     .pipe(gulp.dest('_gh_pages/js/lib'));
 
