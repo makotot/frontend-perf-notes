@@ -2,6 +2,7 @@
 
 rm -rf deploy || exit 0;
 mkdir deploy
+ls
 cd deploy
 
 cp -r ../_gh-pages/* .
