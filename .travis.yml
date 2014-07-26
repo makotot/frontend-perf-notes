@@ -20,7 +20,7 @@ before_script:
   - npm install -g gulp
 
 script:
-  - gulp ci
+  - gulp ci --type production
 
 after_success:
   - ./deploy.sh

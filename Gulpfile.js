@@ -6,7 +6,8 @@ var gulp = require('gulp'),
   less = require('gulp-less'),
   path = require('path'),
   rimraf = require('rimraf'),
-  runSequence = require('run-sequence');
+  runSequence = require('run-sequence'),
+  gutil = require('gulp-util');
 
 var option = {
   assemble: {
@@ -60,7 +61,8 @@ gulp.task('assemble', function () {
 gulp.task('less', function () {
   return gulp.src('src/less/**/*.less')
     .pipe(less({
-      paths: [path.join(__dirname, 'less', 'includes')]
+      paths: [path.join(__dirname, 'less', 'includes')],
+      compress: (gutil.env.type === 'production')
     }))
     .pipe(gulp.dest('_gh_pages/css/'))
     .pipe(connect.reload());
