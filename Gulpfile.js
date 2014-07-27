@@ -27,7 +27,8 @@ gulp.task('setup', function () {
     gulp.src([
       './bower_components/jquery/dist/jquery.min.js',
       './bower_components/jquery/dist/jquery.min.map',
-      './bower_components/jquery/dist/jquery.js'
+      './bower_components/jquery/dist/jquery.js',
+      './bower_components/html5shiv/dist/html5shiv.js'
     ])
     .pipe(gulp.dest('_gh_pages/js/lib'));
 

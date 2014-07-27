@@ -12,5 +12,8 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "devDependencies": {
+    "html5shiv": "~3.7.2"
+  }
 }
