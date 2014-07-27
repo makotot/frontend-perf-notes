@@ -7,7 +7,9 @@ var gulp = require('gulp'),
   path = require('path'),
   rimraf = require('rimraf'),
   runSequence = require('run-sequence'),
-  gutil = require('gulp-util');
+  gutil = require('gulp-util'),
+  csslint = require('gulp-csslint');
+
 
 var option = {
   assemble: {
@@ -47,22 +49,28 @@ gulp.task('connect', function () {
   });
 });
 
-gulp.task('lint', function () {
-  return gulp.src(['./*.js'])
+gulp.task('eslint', function () {
+  gulp.src(['./*.js'])
     .pipe(eslint())
     .pipe(eslint.format())
     .pipe(connect.reload());
 });
 
+gulp.task('csslint', function () {
+  gulp.src(['_gh_pages/css/*.css'])
+    .pipe(csslint())
+    .pipe(csslint.reporter());
+});
+
 gulp.task('assemble', function () {
-  return gulp.src('src/pages/*.hbs')
+  gulp.src('src/pages/*.hbs')
     .pipe(assemble(option.assemble))
     .pipe(gulp.dest('_gh_pages'))
     .pipe(connect.reload());
 });
 
 gulp.task('less', function () {
-  return gulp.src('src/less/**/*.less')
+  gulp.src('src/less/**/*.less')
     .pipe(less({
       paths: [path.join(__dirname, 'less', 'includes')],
       compress: (gutil.env.type === 'production')
@@ -83,12 +91,14 @@ gulp.task('compile', function (cb) {
 
 gulp.task('watch', function () {
   gulp.watch(['./src/**/*.hbs'], ['assemble']);
-  gulp.watch(['./*.js'], ['lint']);
   gulp.watch(['./src/less/**/*.less'], ['less']);
+  gulp.watch(['./*.js'], ['eslint']);
+  gulp.watch(['./gh_pages/css/*.css'], ['csslint']);
 });
 
 
 gulp.task('default', ['lint', 'compile']);
+gulp.task('lint', ['eslint', 'csslint']);
 gulp.task('ci', ['lint', 'compile']);
 gulp.task('serve', ['compile', 'connect', 'watch']);
 
