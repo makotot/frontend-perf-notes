@@ -17,6 +17,7 @@
     "max-params": [1, 4],
     "semi": [1, "always"],
     "no-unused-vars": [1, {"vars": "all", "args": "after-used"}],
-    "no-alert": [1]
+    "no-alert": [1],
+    "eol-last": [0]
   }
 }
