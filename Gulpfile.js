@@ -14,7 +14,8 @@ var gulp = require('gulp'),
 var option = {
   assemble: {
     partials: 'src/templates/partials/*.hbs',
-    layoutdir: 'src/templates/layouts/'
+    layoutdir: 'src/templates/layouts/',
+    data: 'src/data/*.yml'
   }
 };
 
@@ -90,7 +91,7 @@ gulp.task('compile', function (cb) {
 });
 
 gulp.task('watch', function () {
-  gulp.watch(['./src/**/*.hbs'], ['assemble']);
+  gulp.watch(['./src/**/*.hbs', './src/data/*.yml'], ['assemble']);
   gulp.watch(['./src/less/**/*.less'], ['less']);
   gulp.watch(['./*.js'], ['eslint']);
   gulp.watch(['./gh_pages/css/*.css'], ['csslint']);

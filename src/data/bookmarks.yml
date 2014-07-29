@@ -1,0 +1,16 @@
+bookmarks:
+  article:
+    - url: http://stevesouders.com/hpws/rules.php
+      title: "High Performance Web Sites"
+    - url: "http://www.html5rocks.com/ja/tutorials/internals/howbrowserswork/"
+      title: "ブラウザのしくみ: 最新ウェブブラウザの内部構造 - HTML5 Rocks"
+    - url: http://updates.html5rocks.com/2014/06/Automating-Web-Performance-Measurement
+      title: "Automating Web Performance Measurement - HTML5Rocks Updates"
+    - url: http://www.stubbornella.org/content/2009/03/27/reflows-repaints-css-performance-making-your-javascript-slow/
+      title: "Reflows & Repaints: CSS Performance making your JavaScript slow? | Stubbornella"
+    - url: http://t32k.me/mol/log/long-life-web-performance-optimization/
+      title: "Long Life Web Performance Optimization ~ 心理学から考えるWebパフォーマンス ~ — MOL"
+    - url: http://www.mobify.com/blog/data-uris-are-slow-on-mobile/
+      title: "On Mobile, Data URIs are 6x Slower than Source Linking (New Research) | Mobify"
+    - url: http://css.studiomohawk.com/optimization/2011/04/09/why_speed_matters/
+      title: "パフォーマンス最適化 | CSS Radar | Little Books For Front End Developers"
