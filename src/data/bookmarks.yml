@@ -2,7 +2,7 @@ bookmarks:
   article:
     - url: http://stevesouders.com/hpws/rules.php
       title: "High Performance Web Sites"
-    - url: "http://www.html5rocks.com/ja/tutorials/internals/howbrowserswork/"
+    - url: http://www.html5rocks.com/ja/tutorials/internals/howbrowserswork/
       title: "ブラウザのしくみ: 最新ウェブブラウザの内部構造 - HTML5 Rocks"
     - url: http://updates.html5rocks.com/2014/06/Automating-Web-Performance-Measurement
       title: "Automating Web Performance Measurement - HTML5Rocks Updates"
@@ -14,3 +14,35 @@ bookmarks:
       title: "On Mobile, Data URIs are 6x Slower than Source Linking (New Research) | Mobify"
     - url: http://css.studiomohawk.com/optimization/2011/04/09/why_speed_matters/
       title: "パフォーマンス最適化 | CSS Radar | Little Books For Front End Developers"
+    - url: http://hylom.net/2010/06/03/html5_link_prefetch/
+      title: "コンテンツのロードを高速化するHTML5の「link prefetching」機能  «  DailyHckr"
+    - url: http://tokkono.cute.coocan.jp/blog/slow/index.php/xhtmlcss/best-practice-of-truly-async-js-loading/
+      title: "プログレッシブレンダリングでUXを向上させるJS非同期読み込みのベストプラクティス | ゆっくりと…"
+    - url: http://andydavies.me/blog/2013/10/22/how-the-browser-pre-loader-makes-pages-load-faster/
+      title: "How the Browser Pre-loader Makes Pages Load Faster - Andy Davies"
+    - url: http://tech.naver.jp/blog/?p=379
+      title: "ReFlowの原因とマークアップの最適化 «  LINE Engineers' Blog"
+    - url: http://tokkono.cute.coocan.jp/blog/slow/index.php/xhtmlcss/rivisiting-onload/
+      title: "サイト速度とonload再考 | ゆっくりと…"
+    - url: http://andydavies.me/blog/2013/10/22/how-the-browser-pre-loader-makes-pages-load-faster/
+      title: "How the Browser Pre-loader Makes Pages Load Faster - Andy Davies"
+    - url: http://tokkono.cute.coocan.jp/blog/slow/index.php/web-technology/reflow-and-repaint-in-browser/
+      title: "ブラウザ動作の理解－リフローとリペイント及びその最適化 | ゆっくりと…"
+    - url: http://davidwalsh.name/css-js-animation
+      title: "CSS vs. JS Animation: Which is Faster?"
+    - url: http://tokkono.cute.coocan.jp/blog/slow/index.php/xhtmlcss/strategy-and-tactics-for-faster-site/
+      title: "サイト高速化の「戦略」と「戦術」- GradeAのその先へ | ゆっくりと…"
+    - url: https://developers.google.com/speed/articles/gzip
+      title: "How gzip compression works - Make the Web Faster — Google Developers"
+    - url: http://www.html5rocks.com/en/tutorials/speed/scrolling/
+      title: "Scrolling Performance - HTML5 Rocks"
+    - url: https://developers.google.com/speed/pagespeed/service/LazyloadImages
+      title: "Lazyload Images - PageSpeed Module — Google Developers"
+    - url: http://www.sitepoint.com/introduction-resource-timing-api/
+      title: "Introduction to the Resource Timing API"
+    - url: http://www.smashingmagazine.com/2013/04/03/build-fast-loading-mobile-website/
+      title: "How To Make Your Websites Faster On Mobile Devices | Smashing Magazine"
+    - url: http://t32k.me/mol/log/measuring-web-performance/
+      title: "Navigation Timingを使ってパフォーマンス計測（Google アナリティクス） — MOL"
+    - url: http://www.html5rocks.com/en/mobile/optimization-and-performance/
+      title: "HTML5 Techniques for Optimizing Mobile Performance - HTML5 Rocks"

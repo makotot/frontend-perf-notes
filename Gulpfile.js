@@ -71,7 +71,7 @@ gulp.task('assemble', function () {
 });
 
 gulp.task('less', function () {
-  gulp.src('src/less/**/*.less')
+  gulp.src('src/less/*.less')
     .pipe(less({
       paths: [path.join(__dirname, 'less', 'includes')],
       compress: (gutil.env.type === 'production')
@@ -92,7 +92,7 @@ gulp.task('compile', function (cb) {
 
 gulp.task('watch', function () {
   gulp.watch(['./src/**/*.hbs', './src/data/*.yml'], ['assemble']);
-  gulp.watch(['./src/less/**/*.less'], ['less']);
+  gulp.watch(['./src/less/*.less'], ['less']);
   gulp.watch(['./*.js'], ['eslint']);
   gulp.watch(['./gh_pages/css/*.css'], ['csslint']);
 });
