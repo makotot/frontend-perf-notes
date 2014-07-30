@@ -1,48 +1,105 @@
 bookmarks:
   article:
-    - url: http://stevesouders.com/hpws/rules.php
-      title: "High Performance Web Sites"
-    - url: http://www.html5rocks.com/ja/tutorials/internals/howbrowserswork/
-      title: "ブラウザのしくみ: 最新ウェブブラウザの内部構造 - HTML5 Rocks"
-    - url: http://updates.html5rocks.com/2014/06/Automating-Web-Performance-Measurement
-      title: "Automating Web Performance Measurement - HTML5Rocks Updates"
-    - url: http://www.stubbornella.org/content/2009/03/27/reflows-repaints-css-performance-making-your-javascript-slow/
-      title: "Reflows & Repaints: CSS Performance making your JavaScript slow? | Stubbornella"
-    - url: http://t32k.me/mol/log/long-life-web-performance-optimization/
-      title: "Long Life Web Performance Optimization ~ 心理学から考えるWebパフォーマンス ~ — MOL"
-    - url: http://www.mobify.com/blog/data-uris-are-slow-on-mobile/
-      title: "On Mobile, Data URIs are 6x Slower than Source Linking (New Research) | Mobify"
-    - url: http://css.studiomohawk.com/optimization/2011/04/09/why_speed_matters/
-      title: "パフォーマンス最適化 | CSS Radar | Little Books For Front End Developers"
-    - url: http://hylom.net/2010/06/03/html5_link_prefetch/
-      title: "コンテンツのロードを高速化するHTML5の「link prefetching」機能  «  DailyHckr"
-    - url: http://tokkono.cute.coocan.jp/blog/slow/index.php/xhtmlcss/best-practice-of-truly-async-js-loading/
-      title: "プログレッシブレンダリングでUXを向上させるJS非同期読み込みのベストプラクティス | ゆっくりと…"
-    - url: http://andydavies.me/blog/2013/10/22/how-the-browser-pre-loader-makes-pages-load-faster/
-      title: "How the Browser Pre-loader Makes Pages Load Faster - Andy Davies"
-    - url: http://tech.naver.jp/blog/?p=379
-      title: "ReFlowの原因とマークアップの最適化 «  LINE Engineers' Blog"
-    - url: http://tokkono.cute.coocan.jp/blog/slow/index.php/xhtmlcss/rivisiting-onload/
-      title: "サイト速度とonload再考 | ゆっくりと…"
-    - url: http://andydavies.me/blog/2013/10/22/how-the-browser-pre-loader-makes-pages-load-faster/
-      title: "How the Browser Pre-loader Makes Pages Load Faster - Andy Davies"
-    - url: http://tokkono.cute.coocan.jp/blog/slow/index.php/web-technology/reflow-and-repaint-in-browser/
-      title: "ブラウザ動作の理解－リフローとリペイント及びその最適化 | ゆっくりと…"
-    - url: http://davidwalsh.name/css-js-animation
-      title: "CSS vs. JS Animation: Which is Faster?"
-    - url: http://tokkono.cute.coocan.jp/blog/slow/index.php/xhtmlcss/strategy-and-tactics-for-faster-site/
-      title: "サイト高速化の「戦略」と「戦術」- GradeAのその先へ | ゆっくりと…"
-    - url: https://developers.google.com/speed/articles/gzip
-      title: "How gzip compression works - Make the Web Faster — Google Developers"
-    - url: http://www.html5rocks.com/en/tutorials/speed/scrolling/
-      title: "Scrolling Performance - HTML5 Rocks"
-    - url: https://developers.google.com/speed/pagespeed/service/LazyloadImages
-      title: "Lazyload Images - PageSpeed Module — Google Developers"
-    - url: http://www.sitepoint.com/introduction-resource-timing-api/
-      title: "Introduction to the Resource Timing API"
-    - url: http://www.smashingmagazine.com/2013/04/03/build-fast-loading-mobile-website/
-      title: "How To Make Your Websites Faster On Mobile Devices | Smashing Magazine"
-    - url: http://t32k.me/mol/log/measuring-web-performance/
-      title: "Navigation Timingを使ってパフォーマンス計測（Google アナリティクス） — MOL"
-    - url: http://www.html5rocks.com/en/mobile/optimization-and-performance/
-      title: "HTML5 Techniques for Optimizing Mobile Performance - HTML5 Rocks"
+    noclassification:
+      - url: http://stevesouders.com/hpws/rules.php
+        title: "High Performance Web Sites"
+      - url: http://www.html5rocks.com/ja/tutorials/internals/howbrowserswork/
+        title: "ブラウザのしくみ: 最新ウェブブラウザの内部構造 - HTML5 Rocks"
+      - url: http://updates.html5rocks.com/2014/06/Automating-Web-Performance-Measurement
+        title: "Automating Web Performance Measurement - HTML5Rocks Updates"
+      - url: http://www.stubbornella.org/content/2009/03/27/reflows-repaints-css-performance-making-your-javascript-slow/
+        title: "Reflows & Repaints: CSS Performance making your JavaScript slow? | Stubbornella"
+      - url: http://t32k.me/mol/log/long-life-web-performance-optimization/
+        title: "Long Life Web Performance Optimization ~ 心理学から考えるWebパフォーマンス ~ — MOL"
+      - url: http://www.mobify.com/blog/data-uris-are-slow-on-mobile/
+        title: "On Mobile, Data URIs are 6x Slower than Source Linking (New Research) | Mobify"
+      - url: http://css.studiomohawk.com/optimization/2011/04/09/why_speed_matters/
+        title: "パフォーマンス最適化 | CSS Radar | Little Books For Front End Developers"
+      - url: http://hylom.net/2010/06/03/html5_link_prefetch/
+        title: "コンテンツのロードを高速化するHTML5の「link prefetching」機能  «  DailyHckr"
+      - url: http://tokkono.cute.coocan.jp/blog/slow/index.php/xhtmlcss/best-practice-of-truly-async-js-loading/
+        title: "プログレッシブレンダリングでUXを向上させるJS非同期読み込みのベストプラクティス | ゆっくりと…"
+      - url: http://andydavies.me/blog/2013/10/22/how-the-browser-pre-loader-makes-pages-load-faster/
+        title: "How the Browser Pre-loader Makes Pages Load Faster - Andy Davies"
+      - url: http://tech.naver.jp/blog/?p=379
+        title: "ReFlowの原因とマークアップの最適化 «  LINE Engineers' Blog"
+      - url: http://tokkono.cute.coocan.jp/blog/slow/index.php/xhtmlcss/rivisiting-onload/
+        title: "サイト速度とonload再考 | ゆっくりと…"
+      - url: http://andydavies.me/blog/2013/10/22/how-the-browser-pre-loader-makes-pages-load-faster/
+        title: "How the Browser Pre-loader Makes Pages Load Faster - Andy Davies"
+      - url: http://tokkono.cute.coocan.jp/blog/slow/index.php/web-technology/reflow-and-repaint-in-browser/
+        title: "ブラウザ動作の理解－リフローとリペイント及びその最適化 | ゆっくりと…"
+      - url: http://davidwalsh.name/css-js-animation
+        title: "CSS vs. JS Animation: Which is Faster?"
+      - url: http://tokkono.cute.coocan.jp/blog/slow/index.php/xhtmlcss/strategy-and-tactics-for-faster-site/
+        title: "サイト高速化の「戦略」と「戦術」- GradeAのその先へ | ゆっくりと…"
+      - url: https://developers.google.com/speed/articles/gzip
+        title: "How gzip compression works - Make the Web Faster — Google Developers"
+      - url: http://www.html5rocks.com/en/tutorials/speed/scrolling/
+        title: "Scrolling Performance - HTML5 Rocks"
+      - url: https://developers.google.com/speed/pagespeed/service/LazyloadImages
+        title: "Lazyload Images - PageSpeed Module — Google Developers"
+      - url: http://www.sitepoint.com/introduction-resource-timing-api/
+        title: "Introduction to the Resource Timing API"
+      - url: http://www.smashingmagazine.com/2013/04/03/build-fast-loading-mobile-website/
+        title: "How To Make Your Websites Faster On Mobile Devices | Smashing Magazine"
+      - url: http://t32k.me/mol/log/measuring-web-performance/
+        title: "Navigation Timingを使ってパフォーマンス計測（Google アナリティクス） — MOL"
+      - url: http://www.html5rocks.com/en/mobile/optimization-and-performance/
+        title: "HTML5 Techniques for Optimizing Mobile Performance - HTML5 Rocks"
+    javascript:
+      - url: http://www.stevesouders.com/blog/2009/04/27/loading-scripts-without-blocking/
+        title: "Loading Scripts Without Blocking | High Performance Web Sites"
+      - url: http://blog.alexmaccaw.com/jswebapps-memory-management
+        title: "Memory Management in JS Web Apps"
+      - url: http://vzvu3k6k.tk/memo/2014/04/26/tumblr-ghostlist.html
+        title: "Tumblrの省メモリーな無限スクロール - 記録"
+      - url: http://www.ibm.com/developerworks/jp/web/library/wa-jsmemory/
+        title: "JavaScript アプリケーションのメモリー・リークを理解する"
+      - url: http://www.phpied.com/dom-access-optimization/
+        title: "  DOM access optimization / Stoyan's phpied.com"
+      - url: https://www.igvita.com/2014/05/20/script-injected-async-scripts-considered-harmful/
+        title: 'Script-injected "async scripts" considered harmful - igvita.com'
+      - url: http://mizchi.hatenablog.com/entry/2014/05/20/005039
+        title: "モバイル環境でDOM挿入する時innerHTMLとappendNodeどっちが速いの？という話 - mizchi's blog"
+      - url: http://www.sitepoint.com/javascript-performance-developer-console/
+        title: "How to Trace JavaScript Performance Using Your Developer Console"
+      - url: http://css-tricks.com/thinking-async/
+        title: "Thinking Async | CSS-Tricks"
+      - url: http://www.thecssninja.com/javascript/follow-up-60fps-scroll
+        title: "A follow up to obtaining 60fps scrolling performance  |  The CSS Ninja - All things CSS, JavaScript & HTML"
+    css:
+      - url: http://css-tricks.com/efficiently-rendering-css/
+        title: "Efficiently Rendering CSS | CSS-Tricks"
+      - url: http://davidwalsh.name/uncss
+        title: "uncss:  Find Unused CSS"
+      - url: http://t32k.me/mol/log/sprite-image-vs-inline-image/
+        title: "CSS Sprite画像はDataURI画像にすべきか？ — MOL"
+      - url: http://benfrain.com/css-performance-test-flexbox-v-css-table-fight/
+        title: "CSS performance test: Flexbox v CSS Table – Fight! - Author and responsive web developer Ben Frain"
+      - url: http://dev.classmethod.jp/ria/html5/css-import-no-parallel-load-sass/
+        title: "【Sassで解決】CSSの@importはどれだけ悪影響なのか自分で試してみる ｜ Developers.IO"
+      - url: https://github.com/mdo/css-perf
+        title: "mdo/css-perf"
+
+  slide:
+    noclassification:
+      - url: http://www.slideshare.net/techdude/high-performance-web-sites
+        title: "High performance web sites"
+      - url: https://speakerdeck.com/ahomu/high-performance-web-frontend
+        title: "High Performance Web Frontend // Speaker Deck"
+      - url: http://www.slideshare.net/zeman/speed-matters-26675930
+        title: "Speed matters - measuring front-end web performance"
+      - url: https://speakerdeck.com/1000ch/re-think-about-web-performance
+        title: "Re-think about Web Performance // Speaker Deck"
+      - url: https://speakerdeck.com/jonrohan/githubs-css-performance
+        title: "GitHub's CSS Performance // Speaker Deck"
+      - url: https://speakerdeck.com/ariya/supersonic-javascript
+        title: "Supersonic JavaScript // Speaker Deck"
+      - url: https://speakerdeck.com/keithpitt/keith-and-marios-guide-to-fast-websites
+        title: "Keith and Marios Guide to Fast Websites // Speaker Deck"
+      - url: http://www.slideshare.net/turbobytes/state-of-the-resource-timing-api
+        title: "State of the resource timing api"
+      - url: http://www.slideshare.net/t32k/measuring-web-performance-15915024
+        title: "Measuring Web Performance - 自己満足で終わらないためのパフォーマンス計測 -"
+
