@@ -5,11 +5,14 @@ var gulp = require('gulp'),
   connect = require('gulp-connect'),
   less = require('gulp-less'),
   path = require('path'),
-  rimraf = require('rimraf'),
   runSequence = require('run-sequence'),
   gutil = require('gulp-util'),
-  csslint = require('gulp-csslint');
+  csslint = require('gulp-csslint'),
+  minifyHtml = require('gulp-minify-html'),
+  del = require('del');
 
+
+var isProduction = gutil.env.type === 'production';
 
 var option = {
   assemble: {
@@ -21,7 +24,7 @@ var option = {
 
 
 gulp.task('rm', function (cb) {
-  rimraf('./_gh_pages', cb);
+  del(['./_gh_pages', './tmp'], cb);
 });
 
 
@@ -64,8 +67,15 @@ gulp.task('csslint', function () {
 });
 
 gulp.task('assemble', function () {
-  gulp.src('src/pages/*.hbs')
+  return gulp.src('src/pages/*.hbs')
     .pipe(assemble(option.assemble))
+    .pipe(gulp.dest('tmp'));
+//    .pipe(connect.reload());
+});
+
+gulp.task('htmlbuild', ['assemble'], function () {
+  return gulp.src('tmp/**/*.html')
+    .pipe(isProduction ? minifyHtml() : gutil.noop())
     .pipe(gulp.dest('_gh_pages'))
     .pipe(connect.reload());
 });
@@ -74,7 +84,7 @@ gulp.task('less', function () {
   gulp.src('src/less/*.less')
     .pipe(less({
       paths: [path.join(__dirname, 'less', 'includes')],
-      compress: (gutil.env.type === 'production')
+      compress: isProduction
     }))
     .pipe(gulp.dest('_gh_pages/css/'))
     .pipe(connect.reload());
@@ -84,14 +94,14 @@ gulp.task('compile', function (cb) {
   runSequence(
     'rm',
     'setup',
-    'assemble',
+    'htmlbuild',
     'less',
     cb
   );
 });
 
 gulp.task('watch', function () {
-  gulp.watch(['./src/**/*.hbs', './src/data/*.yml'], ['assemble']);
+  gulp.watch(['./src/**/*.hbs', './src/data/*.yml'], ['htmlbuild']);
   gulp.watch(['./src/less/*.less'], ['less']);
   gulp.watch(['./*.js'], ['eslint']);
   gulp.watch(['./gh_pages/css/*.css'], ['csslint']);
