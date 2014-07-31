@@ -8,8 +8,7 @@ var gulp = require('gulp'),
   rimraf = require('rimraf'),
   runSequence = require('run-sequence'),
   gutil = require('gulp-util'),
-  csslint = require('gulp-csslint'),
-  htmlmin = require('gulp-htmlmin');
+  csslint = require('gulp-csslint');
 
 
 var option = {
@@ -67,7 +66,6 @@ gulp.task('csslint', function () {
 gulp.task('assemble', function () {
   gulp.src('src/pages/*.hbs')
     .pipe(assemble(option.assemble))
-    .pipe(gutil.env.type === 'production' ? htmlmin() : gutil.noop())
     .pipe(gulp.dest('_gh_pages'))
     .pipe(connect.reload());
 });
