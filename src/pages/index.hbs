@@ -4,57 +4,85 @@ styles: ['index.css']
 scripts: []
 ---
 
-{{#markdown}}
-## Links
+<div>
+	<h2>Article</h2>
+	<ul>
+	{{#each bookmarks.article.noclassification}}
+		<li><a href="{{url}}">{{title}}</a></li>
+	{{/each}}
+	</ul>
 
-### Tool
+	<div>
+		<h3>JavaScript</h3>
+		<ul>
+		{{#each bookmarks.article.javascript}}
+			<li><a href="{{url}}">{{title}}</a></li>
+		{{/each}}
+		</ul>
+	</div>
 
-- [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/)
-- [YSlow - Official Open Source Project Website](http://yslow.org/)
-- [WebPagetest - Website Performance and Optimization Test](http://www.webpagetest.org/)
-- [Phantomas by macbre](http://macbre.github.io/phantomas/)
-- [axemclion/browser-perf](https://github.com/axemclion/browser-perf)
-- [GTmetrix | Website Speed and Performance Optimization](http://gtmetrix.com/)
-- [Grunt And Gulp Tasks For Performance Optimization | Yeoman](http://yeoman.io/blog/performance-optimization.html)
-- [addyosmani/above-the-fold-css-tools](https://github.com/addyosmani/above-the-fold-css-tools)
-
-
-#### HTML
-
-- [gruntjs/grunt-contrib-htmlmin](https://github.com/gruntjs/grunt-contrib-htmlmin)
-- [kangax/html-minifier](https://github.com/kangax/html-minifier)
-
-
-#### CSS
-
-- [giakki/uncss](https://github.com/giakki/uncss)
-- [gruntjs/grunt-contrib-cssmin](https://github.com/gruntjs/grunt-contrib-cssmin)
-- [jonathanepollack/gulp-minify-css](https://github.com/jonathanepollack/gulp-minify-css)
-- [geuis/helium-css](https://github.com/geuis/helium-css)
-- [jorgebastida/glue](https://github.com/jorgebastida/glue)
-- [Ensighten/grunt-spritesmith](https://github.com/Ensighten/grunt-spritesmith)
-- [addyosmani/critical](https://github.com/addyosmani/critical)
-- [GoalSmashers/clean-css](https://github.com/GoalSmashers/clean-css)
-
-
-#### JavaScript
-
-- [jsPerf: JavaScript performance playground](http://jsperf.com/)
-- [UglifyJS — JavaScript parser, compressor, minifier written in JS](http://lisperator.net/uglifyjs/)
-- [gruntjs/grunt-contrib-uglify](https://github.com/gruntjs/grunt-contrib-uglify)
-
-
-#### Image
-
-- [ImageOptim — better Save For Web](https://imageoptim.com/)
-- [TinyPNG – Compress PNG images while preserving transparency](https://tinypng.com/)
-- [OptiPNG Home Page](http://optipng.sourceforge.net/)
-- [ImageAlpha — image minifier (like JPEG with transparency!)](http://pngmini.com/)
-
-
-#### Monitor
-
-- [SpeedCurve: Monitor front-end performance](http://speedcurve.com/)
-- [Web Monitoring | Keynote Systems](http://www.keynote.com/solutions/monitoring/web-monitoring)
-- [Pingdom - Website Monitoring](https://www.pingdom.com/)
-{{/markdown}}
+	<div>
+		<h3>CSS</h3>
+		<ul>
+		{{#each bookmarks.article.css}}
+			<li><a href="{{url}}">{{title}}</a></li>
+		{{/each}}
+		</ul>
+	</div>
+</div>
+<div>
+	<h2>Slide</h2>
+	<ul>
+	{{#each bookmarks.slide.noclassification}}
+		<li><a href="{{url}}">{{title}}</a></li>
+	{{/each}}
+	</ul>
+</div>
+<div>
+	<h2>Tool</h2>
+	<ul>
+	{{#each bookmarks.slide.noclassification}}
+		<li><a href="{{url}}">{{title}}</a></li>
+	{{/each}}
+	</ul>
+	<div>
+		<h3>JavaScript</h3>
+		<ul>
+		{{#each bookmarks.tool.javascript}}
+			<li><a href="{{url}}">{{title}}</a></li>
+		{{/each}}
+		</ul>
+	</div>
+	<div>
+		<h3>CSS</h3>
+		<ul>
+		{{#each bookmarks.tool.css}}
+			<li><a href="{{url}}">{{title}}</a></li>
+		{{/each}}
+		</ul>
+	</div>
+	<div>
+		<h3>HTML</h3>
+		<ul>
+		{{#each bookmarks.tool.html}}
+			<li><a href="{{url}}">{{title}}</a></li>
+		{{/each}}
+		</ul>
+	</div>
+	<div>
+		<h3>Image</h3>
+		<ul>
+		{{#each bookmarks.tool.image}}
+			<li><a href="{{url}}">{{title}}</a></li>
+		{{/each}}
+		</ul>
+	</div>
+	<div>
+		<h3>Monitor</h3>
+		<ul>
+		{{#each bookmarks.tool.monitor}}
+			<li><a href="{{url}}">{{title}}</a></li>
+		{{/each}}
+		</ul>
+	</div>
+</div>

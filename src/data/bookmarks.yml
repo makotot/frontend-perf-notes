@@ -103,3 +103,72 @@ bookmarks:
       - url: http://www.slideshare.net/t32k/measuring-web-performance-15915024
         title: "Measuring Web Performance - 自己満足で終わらないためのパフォーマンス計測 -"
 
+  tool:
+    noclassification:
+    - url: https://developers.google.com/speed/pagespeed/insights/
+      title: "PageSpeed Insights"
+    - url: http://yslow.org/
+      title: "YSlow - Official Open Source Project Website"
+    - url: http://www.webpagetest.org/
+      title: "WebPagetest - Website Performance and Optimization Test"
+    - url: http://macbre.github.io/phantomas/
+      title: "Phantomas by macbre"
+    - url: https://github.com/axemclion/browser-perf
+      title: "axemclion/browser-perf"
+    - url: http://gtmetrix.com/
+      title: "GTmetrix | Website Speed and Performance Optimization"
+    - url: http://yeoman.io/blog/performance-optimization.html
+      title: "Grunt And Gulp Tasks For Performance Optimization | Yeoman"
+    - url: https://github.com/addyosmani/above-the-fold-css-tools
+      title: "addyosmani/above-the-fold-css-tools"
+
+    html:
+    - url: https://github.com/gruntjs/grunt-contrib-htmlmin
+      title: "gruntjs/grunt-contrib-htmlmin"
+    - url: https://github.com/kangax/html-minifier
+      title: "kangax/html-minifier"
+
+    css:
+    - url: https://github.com/giakki/uncss
+      title: "giakki/uncss"
+    - url: https://github.com/gruntjs/grunt-contrib-cssmin
+      title: "gruntjs/grunt-contrib-cssmin"
+    - url: https://github.com/jonathanepollack/gulp-minify-css
+      title: "jonathanepollack/gulp-minify-css"
+    - url: https://github.com/geuis/helium-css
+      title: "geuis/helium-css"
+    - url: https://github.com/jorgebastida/glue
+      title: "jorgebastida/glue"
+    - url: https://github.com/Ensighten/grunt-spritesmith
+      title: "Ensighten/grunt-spritesmith"
+    - url: https://github.com/addyosmani/critical
+      title: "addyosmani/critical"
+    - url: https://github.com/GoalSmashers/clean-css
+      title: "GoalSmashers/clean-css"
+
+    javascript:
+    - url: http://jsperf.com/
+      title: "jsPerf: JavaScript performance playground"
+    - url: http://lisperator.net/uglifyjs/
+      title: "UglifyJS — JavaScript parser, compressor, minifier written in JS"
+    - url: https://github.com/gruntjs/grunt-contrib-uglify
+      title: "gruntjs/grunt-contrib-uglify"
+
+    image:
+    - url: https://imageoptim.com/
+      title: "ImageOptim — better Save For Web"
+    - url: https://tinypng.com/
+      title: "TinyPNG – Compress PNG images while preserving transparency"
+    - url: http://optipng.sourceforge.net/
+      title: "OptiPNG Home Page"
+    - url: http://pngmini.com/
+      title: "ImageAlpha — image minifier (like JPEG with transparency!)"
+
+    monitor:
+    - url: http://speedcurve.com/
+      title: "SpeedCurve: Monitor front-end performance"
+    - url: http://www.keynote.com/solutions/monitoring/web-monitoring
+      title: "Web Monitoring | Keynote Systems"
+    - url: https://www.pingdom.com/
+      title: "Pingdom - Website Monitoring"
+
