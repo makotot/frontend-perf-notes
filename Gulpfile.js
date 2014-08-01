@@ -70,7 +70,6 @@ gulp.task('assemble', function () {
   return gulp.src('src/pages/*.hbs')
     .pipe(assemble(option.assemble))
     .pipe(gulp.dest('tmp'));
-//    .pipe(connect.reload());
 });
 
 gulp.task('htmlbuild', ['assemble'], function () {
