@@ -4,8 +4,9 @@ styles: ['index.css']
 scripts: []
 ---
 
+<h2>Bookmark</h2>
 <div>
-	<h2>Article</h2>
+	<h3>Article</h3>
 	<ul>
 	{{#each bookmarks.article.noclassification}}
 		<li><a href="{{url}}">{{title}}</a></li>
@@ -13,7 +14,7 @@ scripts: []
 	</ul>
 
 	<div>
-		<h3>JavaScript</h3>
+		<h4>JavaScript</h4>
 		<ul>
 		{{#each bookmarks.article.javascript}}
 			<li><a href="{{url}}">{{title}}</a></li>
@@ -22,7 +23,7 @@ scripts: []
 	</div>
 
 	<div>
-		<h3>CSS</h3>
+		<h4>CSS</h4>
 		<ul>
 		{{#each bookmarks.article.css}}
 			<li><a href="{{url}}">{{title}}</a></li>
@@ -31,7 +32,7 @@ scripts: []
 	</div>
 </div>
 <div>
-	<h2>Slide</h2>
+	<h3>Slide</h3>
 	<ul>
 	{{#each bookmarks.slide.noclassification}}
 		<li><a href="{{url}}">{{title}}</a></li>
@@ -39,14 +40,14 @@ scripts: []
 	</ul>
 </div>
 <div>
-	<h2>Tool</h2>
+	<h3>Tool</h3>
 	<ul>
 	{{#each bookmarks.tool.noclassification}}
 		<li><a href="{{url}}">{{title}}</a></li>
 	{{/each}}
 	</ul>
 	<div>
-		<h3>JavaScript</h3>
+		<h4>JavaScript</h4>
 		<ul>
 		{{#each bookmarks.tool.javascript}}
 			<li><a href="{{url}}">{{title}}</a></li>
@@ -54,7 +55,7 @@ scripts: []
 		</ul>
 	</div>
 	<div>
-		<h3>CSS</h3>
+		<h4>CSS</h4>
 		<ul>
 		{{#each bookmarks.tool.css}}
 			<li><a href="{{url}}">{{title}}</a></li>
@@ -62,7 +63,7 @@ scripts: []
 		</ul>
 	</div>
 	<div>
-		<h3>HTML</h3>
+		<h4>HTML</h4>
 		<ul>
 		{{#each bookmarks.tool.html}}
 			<li><a href="{{url}}">{{title}}</a></li>
@@ -70,7 +71,7 @@ scripts: []
 		</ul>
 	</div>
 	<div>
-		<h3>Image</h3>
+		<h4>Image</h4>
 		<ul>
 		{{#each bookmarks.tool.image}}
 			<li><a href="{{url}}">{{title}}</a></li>
@@ -78,7 +79,7 @@ scripts: []
 		</ul>
 	</div>
 	<div>
-		<h3>Monitor</h3>
+		<h4>Monitor</h4>
 		<ul>
 		{{#each bookmarks.tool.monitor}}
 			<li><a href="{{url}}">{{title}}</a></li>
