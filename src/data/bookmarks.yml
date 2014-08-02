@@ -127,6 +127,8 @@ bookmarks:
       title: "gruntjs/grunt-contrib-htmlmin"
     - url: https://github.com/kangax/html-minifier
       title: "kangax/html-minifier"
+    - url: https://github.com/jonathanepollack/gulp-minify-html
+      title: "jonathanepollack/gulp-minify-html"
 
     css:
     - url: https://github.com/giakki/uncss
