@@ -4,86 +4,91 @@ styles: ['index.css']
 scripts: ['index.js']
 ---
 
-<h2>Bookmark</h2>
-<div>
-	<h3>Article</h3>
-	<ul>
-	{{#each bookmarks.article.noclassification}}
-		<li><a href="{{url}}">{{title}}</a></li>
-	{{/each}}
-	</ul>
-
-	<div>
-		<h4>JavaScript</h4>
-		<ul>
-		{{#each bookmarks.article.javascript}}
-			<li><a href="{{url}}">{{title}}</a></li>
-		{{/each}}
-		</ul>
-	</div>
-
-	<div>
-		<h4>CSS</h4>
-		<ul>
-		{{#each bookmarks.article.css}}
-			<li><a href="{{url}}">{{title}}</a></li>
-		{{/each}}
-		</ul>
-	</div>
+<div class="content-article">
+	<h2 class="content-article-headline">Minify HTML</h2>
 </div>
-<div>
-	<h3>Slide</h3>
-	<ul>
-	{{#each bookmarks.slide.noclassification}}
-		<li><a href="{{url}}">{{title}}</a></li>
-	{{/each}}
-	</ul>
-</div>
-<div>
-	<h3>Tool</h3>
-	<ul>
-	{{#each bookmarks.tool.noclassification}}
-		<li><a href="{{url}}">{{title}}</a></li>
-	{{/each}}
-	</ul>
+<div class="content-article">
+	<h2 class="content-article-headline">Bookmarks</h2>
 	<div>
-		<h4>JavaScript</h4>
+		<h3>Article</h3>
 		<ul>
-		{{#each bookmarks.tool.javascript}}
+		{{#each bookmarks.article.noclassification}}
+			<li><a href="{{url}}">{{title}}</a></li>
+		{{/each}}
+		</ul>
+
+		<div>
+			<h4>JavaScript</h4>
+			<ul>
+			{{#each bookmarks.article.javascript}}
+				<li><a href="{{url}}">{{title}}</a></li>
+			{{/each}}
+			</ul>
+		</div>
+
+		<div>
+			<h4>CSS</h4>
+			<ul>
+			{{#each bookmarks.article.css}}
+				<li><a href="{{url}}">{{title}}</a></li>
+			{{/each}}
+			</ul>
+		</div>
+	</div>
+	<div>
+		<h3>Slide</h3>
+		<ul>
+		{{#each bookmarks.slide.noclassification}}
 			<li><a href="{{url}}">{{title}}</a></li>
 		{{/each}}
 		</ul>
 	</div>
 	<div>
-		<h4>CSS</h4>
+		<h3>Tool</h3>
 		<ul>
-		{{#each bookmarks.tool.css}}
+		{{#each bookmarks.tool.noclassification}}
 			<li><a href="{{url}}">{{title}}</a></li>
 		{{/each}}
 		</ul>
-	</div>
-	<div>
-		<h4>HTML</h4>
-		<ul>
-		{{#each bookmarks.tool.html}}
-			<li><a href="{{url}}">{{title}}</a></li>
-		{{/each}}
-		</ul>
-	</div>
-	<div>
-		<h4>Image</h4>
-		<ul>
-		{{#each bookmarks.tool.image}}
-			<li><a href="{{url}}">{{title}}</a></li>
-		{{/each}}
-		</ul>
-	</div>
-	<div>
-		<h4>Monitor</h4>
-		<ul>
-		{{#each bookmarks.tool.monitor}}
-			<li><a href="{{url}}">{{title}}</a></li>
-		{{/each}}
-		</ul>
+		<div>
+			<h4>JavaScript</h4>
+			<ul>
+			{{#each bookmarks.tool.javascript}}
+				<li><a href="{{url}}">{{title}}</a></li>
+			{{/each}}
+			</ul>
+		</div>
+		<div>
+			<h4>CSS</h4>
+			<ul>
+			{{#each bookmarks.tool.css}}
+				<li><a href="{{url}}">{{title}}</a></li>
+			{{/each}}
+			</ul>
+		</div>
+		<div>
+			<h4>HTML</h4>
+			<ul>
+			{{#each bookmarks.tool.html}}
+				<li><a href="{{url}}">{{title}}</a></li>
+			{{/each}}
+			</ul>
+		</div>
+		<div>
+			<h4>Image</h4>
+			<ul>
+			{{#each bookmarks.tool.image}}
+				<li><a href="{{url}}">{{title}}</a></li>
+			{{/each}}
+			</ul>
+		</div>
+		<div>
+			<h4>Monitor</h4>
+			<ul>
+			{{#each bookmarks.tool.monitor}}
+				<li><a href="{{url}}">{{title}}</a></li>
+			{{/each}}
+			</ul>
+		</div>
 	</div>
 </div>
