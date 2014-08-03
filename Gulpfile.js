@@ -9,7 +9,9 @@ var gulp = require('gulp'),
   gutil = require('gulp-util'),
   csslint = require('gulp-csslint'),
   minifyHtml = require('gulp-minify-html'),
-  del = require('del');
+  del = require('del'),
+  browserify = require('gulp-browserify'),
+  uglify = require('gulp-uglify');
 
 
 var isProduction = gutil.env.type === 'production';
@@ -89,12 +91,21 @@ gulp.task('less', function () {
     .pipe(connect.reload());
 });
 
+gulp.task('script', function () {
+  gulp.src('./src/js/*.js')
+    .pipe(browserify({
+    }))
+    .pipe(isProduction ? uglify() : gutil.noop())
+    .pipe(gulp.dest('./_gh_pages/js'));
+});
+
 gulp.task('compile', function (cb) {
   runSequence(
     'rm',
     'setup',
     'htmlbuild',
     'less',
+    'script',
     cb
   );
 });
@@ -102,7 +113,7 @@ gulp.task('compile', function (cb) {
 gulp.task('watch', function () {
   gulp.watch(['./src/**/*.hbs', './src/data/*.yml'], ['htmlbuild']);
   gulp.watch(['./src/less/*.less'], ['less']);
-  gulp.watch(['./*.js'], ['eslint']);
+  gulp.watch(['./src/*.js'], ['eslint', 'script']);
   gulp.watch(['./gh_pages/css/*.css'], ['csslint']);
 });
 
