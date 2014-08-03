@@ -112,8 +112,8 @@ gulp.task('compile', function (cb) {
 
 gulp.task('watch', function () {
   gulp.watch(['./src/**/*.hbs', './src/data/*.yml'], ['htmlbuild']);
-  gulp.watch(['./src/less/*.less'], ['less']);
-  gulp.watch(['./src/*.js'], ['eslint', 'script']);
+  gulp.watch(['./src/less/**/*.less'], ['less']);
+  gulp.watch(['./src/js/**/*.js'], ['eslint', 'script']);
   gulp.watch(['./gh_pages/css/*.css'], ['csslint']);
 });
 
