@@ -81,6 +81,9 @@ bookmarks:
         title: "【Sassで解決】CSSの@importはどれだけ悪影響なのか自分で試してみる ｜ Developers.IO"
       - url: https://github.com/mdo/css-perf
         title: "mdo/css-perf"
+    html:
+      - url: http://perfectionkills.com/experimenting-with-html-minifier/
+        title: Experimenting with HTML minifier — Perfection Kills
 
   slide:
     noclassification:
