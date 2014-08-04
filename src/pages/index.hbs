@@ -34,6 +34,15 @@ scripts: ['index.js']
 			{{/each}}
 			</ul>
 		</div>
+
+		<div>
+			<h4>HTML</h4>
+			<ul>
+			{{#each bookmarks.article.html}}
+				<li><a href="{{url}}">{{title}}</a></li>
+			{{/each}}
+			</ul>
+		</div>
 	</div>
 	<div>
 		<h3>Slide</h3>
