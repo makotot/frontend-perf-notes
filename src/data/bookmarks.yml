@@ -49,6 +49,8 @@ bookmarks:
         title: "HTML5 Techniques for Optimizing Mobile Performance - HTML5 Rocks"
       - url: http://blog.grayghostvisuals.com/grunt/image-optimization/
         title: "Optimizing Images with Grunt using grunt-contrib-imagemin | Gray Ghost Visuals Press"
+      - url: http://frontendbabel.info/articles/webpage-rendering-101/
+        title: "What Every Frontend Developer Should Know About Webpage Rendering — Frontend Babel"
     javascript:
       - url: http://www.stevesouders.com/blog/2009/04/27/loading-scripts-without-blocking/
         title: "Loading Scripts Without Blocking | High Performance Web Sites"
@@ -107,6 +109,8 @@ bookmarks:
         title: "State of the resource timing api"
       - url: http://www.slideshare.net/t32k/measuring-web-performance-15915024
         title: "Measuring Web Performance - 自己満足で終わらないためのパフォーマンス計測 -"
+      - url: http://www.slideshare.net/t32k/ss-15915114
+        title: モバイル制作におけるパフォーマンス最適化について
 
   tool:
     noclassification:
