@@ -164,6 +164,8 @@ bookmarks:
       title: "UglifyJS — JavaScript parser, compressor, minifier written in JS"
     - url: https://github.com/gruntjs/grunt-contrib-uglify
       title: "gruntjs/grunt-contrib-uglify"
+    - url: https://github.com/gruntjs/grunt-contrib-concat
+      title: "gruntjs/grunt-contrib-concat"
 
     image:
     - url: https://imageoptim.com/
