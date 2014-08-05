@@ -47,6 +47,8 @@ bookmarks:
         title: "Navigation Timingを使ってパフォーマンス計測（Google アナリティクス） — MOL"
       - url: http://www.html5rocks.com/en/mobile/optimization-and-performance/
         title: "HTML5 Techniques for Optimizing Mobile Performance - HTML5 Rocks"
+      - url: http://blog.grayghostvisuals.com/grunt/image-optimization/
+        title: "Optimizing Images with Grunt using grunt-contrib-imagemin | Gray Ghost Visuals Press"
     javascript:
       - url: http://www.stevesouders.com/blog/2009/04/27/loading-scripts-without-blocking/
         title: "Loading Scripts Without Blocking | High Performance Web Sites"
