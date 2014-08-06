@@ -53,6 +53,8 @@ bookmarks:
         title: "What Every Frontend Developer Should Know About Webpage Rendering — Frontend Babel"
       - url: http://tokkono.cute.coocan.jp/blog/slow/index.php/xhtmlcss/how-to-use-script-defer-and-async-for-performance-enhancement/
         title: "scriptのdefer/asyncを理解し、ページの高速化方法を探る | ゆっくりと…"
+      - url: http://nakajmg.github.io/blog/2014-05-13/hpbn.html
+        title: "フロントエンドエンジニアから見た『ハイパフォーマンス ブラウザネットワーキング』 | じまぐてっく"
     javascript:
       - url: http://www.stevesouders.com/blog/2009/04/27/loading-scripts-without-blocking/
         title: "Loading Scripts Without Blocking | High Performance Web Sites"
