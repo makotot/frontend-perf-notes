@@ -17,7 +17,13 @@
     "max-params": [1, 4],
     "semi": [1, "always"],
     "no-unused-vars": [1, {"vars": "all", "args": "after-used"}],
+    "eol-last": [0],
     "no-alert": [1],
-    "eol-last": [0]
+    "brace-style": [2, "1tbs"],
+    "no-mixed-spaces-and-tabs": [2, true],
+    "no-trailing-spaces": [2],
+    "space-after-keywords": ["always"],
+    "max-nested-callbacks": [2, 3],
+    "space-infix-ops": [2]
   }
 }
