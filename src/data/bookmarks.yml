@@ -78,6 +78,10 @@ bookmarks:
         title: "A follow up to obtaining 60fps scrolling performance  |  The CSS Ninja - All things CSS, JavaScript & HTML"
       - url: https://developer.tizen.org/ja/documentation/articles/asynchronous-javascript-loader
         title: "Asynchronous JavaScript Loader | Tizen Developers"
+      - url: http://www.html5rocks.com/en/tutorials/speed/script-loading/
+        title: "Deep dive into the murky waters of script loading - HTML5 Rocks"
+      - url: http://exisweb.net/web-site-optimization-making-javascript-load-faster
+        title: "How to Use a Javascript Loader to Speed Up Your Site"
     css:
       - url: http://css-tricks.com/efficiently-rendering-css/
         title: "Efficiently Rendering CSS | CSS-Tricks"
