@@ -97,4 +97,12 @@ scripts: ['index.js']
 			</ul>
 		</div>
 	</div>
+	<div>
+		<h3>Infographics</h3>
+		<ul>
+		{{#each bookmarks.infographic.noclassification}}
+			<li><a href="{{url}}">{{title}}</a></li>
+		{{/each}}
+		</ul>
+	</div>
 </div>

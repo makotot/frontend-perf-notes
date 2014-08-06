@@ -51,6 +51,8 @@ bookmarks:
         title: "Optimizing Images with Grunt using grunt-contrib-imagemin | Gray Ghost Visuals Press"
       - url: http://frontendbabel.info/articles/webpage-rendering-101/
         title: "What Every Frontend Developer Should Know About Webpage Rendering — Frontend Babel"
+      - url: http://tokkono.cute.coocan.jp/blog/slow/index.php/xhtmlcss/how-to-use-script-defer-and-async-for-performance-enhancement/
+        title: "scriptのdefer/asyncを理解し、ページの高速化方法を探る | ゆっくりと…"
     javascript:
       - url: http://www.stevesouders.com/blog/2009/04/27/loading-scripts-without-blocking/
         title: "Loading Scripts Without Blocking | High Performance Web Sites"
@@ -184,4 +186,10 @@ bookmarks:
       title: "Web Monitoring | Keynote Systems"
     - url: https://www.pingdom.com/
       title: "Pingdom - Website Monitoring"
+
+  infographic:
+    noclassification:
+      - url: http://sixrevisions.com/infographs/browser-performance/
+        title: Web Browser Performance
+
 
