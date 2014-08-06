@@ -76,6 +76,8 @@ bookmarks:
         title: "Thinking Async | CSS-Tricks"
       - url: http://www.thecssninja.com/javascript/follow-up-60fps-scroll
         title: "A follow up to obtaining 60fps scrolling performance  |  The CSS Ninja - All things CSS, JavaScript & HTML"
+      - url: https://developer.tizen.org/ja/documentation/articles/asynchronous-javascript-loader
+        title: "Asynchronous JavaScript Loader | Tizen Developers"
     css:
       - url: http://css-tricks.com/efficiently-rendering-css/
         title: "Efficiently Rendering CSS | CSS-Tricks"
