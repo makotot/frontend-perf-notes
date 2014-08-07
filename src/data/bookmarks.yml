@@ -55,6 +55,8 @@ bookmarks:
         title: "scriptのdefer/asyncを理解し、ページの高速化方法を探る | ゆっくりと…"
       - url: http://nakajmg.github.io/blog/2014-05-13/hpbn.html
         title: "フロントエンドエンジニアから見た『ハイパフォーマンス ブラウザネットワーキング』 | じまぐてっく"
+      - url: https://cdnify.com/blog/top-10-gulp-tasks-for-optimising-front-end-performance/
+        title: "Gulp Tasks for Optimising Front End Performance"
     javascript:
       - url: http://www.stevesouders.com/blog/2009/04/27/loading-scripts-without-blocking/
         title: "Loading Scripts Without Blocking | High Performance Web Sites"
