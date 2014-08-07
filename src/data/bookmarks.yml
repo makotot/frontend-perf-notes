@@ -186,6 +186,10 @@ bookmarks:
       title: "OptiPNG Home Page"
     - url: http://pngmini.com/
       title: "ImageAlpha — image minifier (like JPEG with transparency!)"
+    - url: https://github.com/ben-eb/gulp-svgmin
+      title: "ben-eb/gulp-svgmin"
+    - url: https://github.com/sindresorhus/grunt-svgmin
+      title: "sindresorhus/grunt-svgmin"
 
     monitor:
     - url: http://speedcurve.com/
