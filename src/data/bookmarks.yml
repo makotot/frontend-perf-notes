@@ -190,6 +190,10 @@ bookmarks:
       title: "ben-eb/gulp-svgmin"
     - url: https://github.com/sindresorhus/grunt-svgmin
       title: "sindresorhus/grunt-svgmin"
+    - url: https://github.com/gruntjs/grunt-contrib-imagemin
+      title: "gruntjs/grunt-contrib-imagemin"
+    - url: https://github.com/sindresorhus/gulp-imagemin
+      title: "sindresorhus/gulp-imagemin"
 
     monitor:
     - url: http://speedcurve.com/
