@@ -162,6 +162,8 @@ bookmarks:
       title: "jorgebastida/glue"
     - url: https://github.com/Ensighten/grunt-spritesmith
       title: "Ensighten/grunt-spritesmith"
+    - url: https://github.com/twolfson/gulp.spritesmith
+      title: "twolfson/gulp.spritesmith"
     - url: https://github.com/addyosmani/critical
       title: "addyosmani/critical"
     - url: https://github.com/GoalSmashers/clean-css
