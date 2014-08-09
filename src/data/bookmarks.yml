@@ -57,6 +57,8 @@ bookmarks:
         title: "フロントエンドエンジニアから見た『ハイパフォーマンス ブラウザネットワーキング』 | じまぐてっく"
       - url: https://cdnify.com/blog/top-10-gulp-tasks-for-optimising-front-end-performance/
         title: "Gulp Tasks for Optimising Front End Performance"
+      - url: http://dresscording.com/blog/performance/layout_painting.html
+        title: "Layout、Paintingとは何か？レンダリングから学ぶWebサイトのパフォーマンス | Dress Cording"
     javascript:
       - url: http://www.stevesouders.com/blog/2009/04/27/loading-scripts-without-blocking/
         title: "Loading Scripts Without Blocking | High Performance Web Sites"
@@ -123,6 +125,8 @@ bookmarks:
         title: "Measuring Web Performance - 自己満足で終わらないためのパフォーマンス計測 -"
       - url: http://www.slideshare.net/t32k/ss-15915114
         title: モバイル制作におけるパフォーマンス最適化について
+      - url: https://speakerdeck.com/addyosmani/velocityconf-rendering-performance-case-studies
+        title: "VelocityConf: Rendering Performance Case Studies // Speaker Deck"
 
   tool:
     noclassification:
