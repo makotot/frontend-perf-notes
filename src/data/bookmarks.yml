@@ -59,6 +59,8 @@ bookmarks:
         title: "Gulp Tasks for Optimising Front End Performance"
       - url: http://dresscording.com/blog/performance/layout_painting.html
         title: "Layout、Paintingとは何か？レンダリングから学ぶWebサイトのパフォーマンス | Dress Cording"
+      - url: http://html5experts.jp/furoshiki/6242/
+        title: "Navigation Timingだからできる、Webアプリを俯瞰したパフォーマンス計測(1/3) | HTML5Experts.jp"
     javascript:
       - url: http://www.stevesouders.com/blog/2009/04/27/loading-scripts-without-blocking/
         title: "Loading Scripts Without Blocking | High Performance Web Sites"
