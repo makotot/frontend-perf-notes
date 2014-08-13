@@ -151,6 +151,9 @@ bookmarks:
       title: "Grunt And Gulp Tasks For Performance Optimization | Yeoman"
     - url: https://github.com/addyosmani/above-the-fold-css-tools
       title: "addyosmani/above-the-fold-css-tools"
+    - url: http://lafikl.github.io/perfBar/
+      title: "PerfBar"
+
 
     html:
     - url: https://github.com/gruntjs/grunt-contrib-htmlmin
