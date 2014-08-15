@@ -26,6 +26,8 @@
     "space-infix-ops": [2],
     "radix": [2],
     "space-unary-word-ops": [2],
-    "wrap-regex": [2]
+    "wrap-regex": [2],
+    "no-mixed-requires": [1, true],
+    "eol-last": [0]
   }
 }
