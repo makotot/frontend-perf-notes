@@ -93,6 +93,8 @@ bookmarks:
         title: "Deep dive into the murky waters of script loading - HTML5 Rocks"
       - url: http://exisweb.net/web-site-optimization-making-javascript-load-faster
         title: "How to Use a Javascript Loader to Speed Up Your Site"
+      - url: https://gist.github.com/khoomeister/4985691
+        title: "Making Javascript faster"
     css:
       - url: http://css-tricks.com/efficiently-rendering-css/
         title: "Efficiently Rendering CSS | CSS-Tricks"
@@ -224,6 +226,6 @@ bookmarks:
   infographic:
     noclassification:
       - url: http://sixrevisions.com/infographs/browser-performance/
-        title: Web Browser Performance
+        title: "Web Browser Performance"
 
 
