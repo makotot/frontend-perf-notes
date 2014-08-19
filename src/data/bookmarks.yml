@@ -65,6 +65,8 @@ bookmarks:
         title: "Preventing the Performance Hit from Custom Fonts | CSS-Tricks"
       - url: http://d.hatena.ne.jp/jovi0608/20111209/1323428049
         title: "HTML5で Speed Test, Navigation Timing APIによる性能データ収集 - ぼちぼち日記"
+      - url: http://www.html5rocks.com/en/tutorials/webperformance/basics/
+        title: "Measuring Page Load Speed with Navigation Timing - HTML5 Rocks"
 
     javascript:
       - url: http://www.stevesouders.com/blog/2009/04/27/loading-scripts-without-blocking/
