@@ -110,9 +110,11 @@ bookmarks:
         title: "【Sassで解決】CSSの@importはどれだけ悪影響なのか自分で試してみる ｜ Developers.IO"
       - url: https://github.com/mdo/css-perf
         title: "mdo/css-perf"
+      - url: http://jakearchibald.com/2014/minimising-font-downloads/
+        title: "Minimising font downloads - JakeArchibald.com"
     html:
       - url: http://perfectionkills.com/experimenting-with-html-minifier/
-        title: Experimenting with HTML minifier — Perfection Kills
+        title: "Experimenting with HTML minifier — Perfection Kills"
 
   slide:
     noclassification:
@@ -135,7 +137,7 @@ bookmarks:
       - url: http://www.slideshare.net/t32k/measuring-web-performance-15915024
         title: "Measuring Web Performance - 自己満足で終わらないためのパフォーマンス計測 -"
       - url: http://www.slideshare.net/t32k/ss-15915114
-        title: モバイル制作におけるパフォーマンス最適化について
+        title: "モバイル制作におけるパフォーマンス最適化について"
       - url: https://speakerdeck.com/addyosmani/velocityconf-rendering-performance-case-studies
         title: "VelocityConf: Rendering Performance Case Studies // Speaker Deck"
 
