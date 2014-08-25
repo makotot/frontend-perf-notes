@@ -142,6 +142,8 @@ bookmarks:
         title: "モバイル制作におけるパフォーマンス最適化について"
       - url: https://speakerdeck.com/addyosmani/velocityconf-rendering-performance-case-studies
         title: "VelocityConf: Rendering Performance Case Studies // Speaker Deck"
+      - url: http://www.slideshare.net/DavidAm/grunt-js-for-the-enterprise
+        title: "Grunt js for the Enterprise Vol.1: Frontend Performance with Phantomas"
 
   tool:
     noclassification:
@@ -163,6 +165,8 @@ bookmarks:
       title: "addyosmani/above-the-fold-css-tools"
     - url: http://lafikl.github.io/perfBar/
       title: "PerfBar"
+    - url: https://github.com/gmetais/grunt-devperf
+      title: "gmetais/grunt-devperf"
 
 
     html:
