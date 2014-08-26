@@ -99,6 +99,12 @@ bookmarks:
         title: "How to Use a Javascript Loader to Speed Up Your Site"
       - url: https://gist.github.com/khoomeister/4985691
         title: "Making Javascript faster"
+      - url: http://blog.scalyr.com/2013/10/angularjs-1200ms-to-35ms/
+        title: "Optimizing AngularJS: 1200ms to 35ms - Scalyr Blog"
+      - url: http://tech.small-improvements.com/2013/09/10/angularjs-performance-with-large-lists/
+        title: "AngularJS Performance Tuning for Long Lists | Small Improvements"
+      - url: http://www.binpress.com/tutorial/speeding-up-angular-js-with-simple-optimizations/135
+        title: "Speeding up AngularJS apps with simple optimizations - Tutorial - Binpress"
     css:
       - url: http://css-tricks.com/efficiently-rendering-css/
         title: "Efficiently Rendering CSS | CSS-Tricks"
