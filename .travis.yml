@@ -5,7 +5,7 @@ env:
     - GIT_COMMITTER_EMAIL=makoto.ttn@gmail.com
     - GIT_AUTHOR_NAME=makotot
     - GIT_AUTHOR_EMAIL=makoto.ttn@gmail.com
-    - secure: avQKZeUFgW+FyRnh3hyZKzcTzrTEHwOO0AFmOD4agrcsuJoIS2MSp3KGaK/gy2GujPJXhuLFETQnN0adXZMxQ9TdpJ2AsPUvZthP3L0V+6T07EsDIy/rAG0YykH849saYefmZEkiAuTDnn5NgrjfkysYZUvyPpPaBD2J1WRHojc=
+    - secure: vOPsQfWDzdloNRm2TY7QPOQkQQGPEL/lpyYOJjuKtKBJ6EJYChD1Ny/iVT9IknJUUTgXD5ZtGxTMvLOZ5/gcHW0BFuPu8HbcNPbrKzodkskXIrxvLfoh9jy+wDmuva9RlPHvvlBPeqkcmG6JIA1atarKuuWYObBAGCcTwgGCWuo=
 
 language: node_js
 
