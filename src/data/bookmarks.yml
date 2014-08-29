@@ -105,6 +105,8 @@ bookmarks:
         title: "AngularJS Performance Tuning for Long Lists | Small Improvements"
       - url: http://www.binpress.com/tutorial/speeding-up-angular-js-with-simple-optimizations/135
         title: "Speeding up AngularJS apps with simple optimizations - Tutorial - Binpress"
+      - url: http://imgur.com/blog/2013/04/30/tech-tuesday-avoiding-a-memory-leak-situation-in-js/
+        title: "Tech Tuesday: Avoiding a memory leak situation in JS – Imgur Blog"
     css:
       - url: http://css-tricks.com/efficiently-rendering-css/
         title: "Efficiently Rendering CSS | CSS-Tricks"
@@ -153,8 +155,6 @@ bookmarks:
     javascript:
       - url: https://speakerdeck.com/addyosmani/javascript-memory-management-masterclass
         title: "JavaScript Memory Management Masterclass // Speaker Deck"
-      - url: http://imgur.com/blog/2013/04/30/tech-tuesday-avoiding-a-memory-leak-situation-in-js/
-        title: "Tech Tuesday: Avoiding a memory leak situation in JS – Imgur Blog"
 
   tool:
     noclassification:
