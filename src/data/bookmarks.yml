@@ -150,6 +150,9 @@ bookmarks:
         title: "VelocityConf: Rendering Performance Case Studies // Speaker Deck"
       - url: http://www.slideshare.net/DavidAm/grunt-js-for-the-enterprise
         title: "Grunt js for the Enterprise Vol.1: Frontend Performance with Phantomas"
+    javascript:
+      - url: https://speakerdeck.com/addyosmani/javascript-memory-management-masterclass
+        title: "JavaScript Memory Management Masterclass // Speaker Deck"
 
   tool:
     noclassification:
