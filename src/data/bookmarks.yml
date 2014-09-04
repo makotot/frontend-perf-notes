@@ -69,6 +69,8 @@ bookmarks:
         title: "Measuring Page Load Speed with Navigation Timing - HTML5 Rocks"
       - url: http://www.stevesouders.com/blog/2014/08/21/resource-timing-practical-tips/
         title: "Resource Timing practical tips | High Performance Web Sites"
+      - url: http://wazanova.jp/items/1128
+        title: "Gruntとgulp.jsでサイトパフォーマンスを向上させる -  ワザノバ | wazanova"
 
     javascript:
       - url: http://www.stevesouders.com/blog/2009/04/27/loading-scripts-without-blocking/
