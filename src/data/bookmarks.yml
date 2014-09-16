@@ -131,6 +131,9 @@ bookmarks:
         title: "mdo/css-perf"
       - url: http://jakearchibald.com/2014/minimising-font-downloads/
         title: "Minimising font downloads - JakeArchibald.com"
+      - url: http://takenspc.hatenablog.com/entry/2014/09/16/152157
+        title: "CSSセレクターマッチングのコスト - Unreviewed"
+
     html:
       - url: http://perfectionkills.com/experimenting-with-html-minifier/
         title: "Experimenting with HTML minifier — Perfection Kills"
