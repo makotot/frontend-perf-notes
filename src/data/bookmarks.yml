@@ -236,6 +236,8 @@ bookmarks:
       title: "gruntjs/grunt-contrib-concat"
 
     image:
+    - url: http://jamiemason.github.io/ImageOptim-CLI/
+      title: "Comparison of all optimisation tools | ImageOptim-CLI"
     - url: https://imageoptim.com/
       title: "ImageOptim — better Save For Web"
     - url: https://tinypng.com/
