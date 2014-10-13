@@ -196,7 +196,9 @@ bookmarks:
     - url: http://perf-tooling.today/
       title: "Performance tooling today"
     - url: https://github.com/addyosmani/timing.js
-    title: "addyosmani/timing.js"
+      title: "addyosmani/timing.js"
+    - url: https://github.com/zeman/perfmap
+      title: "zeman/perfmap"
 
 
     html:
