@@ -75,6 +75,8 @@ bookmarks:
         title: "サイトパフォーマンス: 1000msを目指す取組み -  ワザノバ | wazanova"
       - url: http://www.smashingmagazine.com/2014/09/08/improving-smashing-magazine-performance-case-study/
         title: "Improving Smashing Magazine's Performance: A Case Study | Smashing Magazine"
+      - url: http://developer.telerik.com/featured/introduction-navigation-timing-api/
+        title: "Improving Site Performance with the Navigation Timing API -Telerik Developer Network"
 
     javascript:
       - url: http://www.stevesouders.com/blog/2009/04/27/loading-scripts-without-blocking/
