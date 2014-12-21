@@ -6,6 +6,7 @@ var gulp = require('gulp'),
   assemble = require('gulp-assemble'),
   connect = require('gulp-connect'),
   less = require('gulp-less'),
+  sass = require('gulp-ruby-sass'),
   runSequence = require('run-sequence'),
   gutil = require('gulp-util'),
   csslint = require('gulp-csslint'),
@@ -91,6 +92,15 @@ gulp.task('less', function () {
     .pipe(connect.reload());
 });
 
+gulp.task('sass', function () {
+  gulp.src('src/scss/*.scss')
+    .pipe(sass({
+      sourcemap: true
+    }))
+    .pipe(gulp.dest('_gh_pages/css/'))
+    .pipe(connect.reload());
+});
+
 gulp.task('script', function () {
   gulp.src('./src/js/*.js')
     .pipe(browserify({
@@ -104,7 +114,7 @@ gulp.task('compile', function (cb) {
     'rm',
     'setup',
     'htmlbuild',
-    'less',
+    'sass',
     'script',
     cb
   );
@@ -112,7 +122,7 @@ gulp.task('compile', function (cb) {
 
 gulp.task('watch', function () {
   gulp.watch(['./src/**/*.hbs', './src/data/*.yml'], ['htmlbuild']);
-  gulp.watch(['./src/less/**/*.less'], ['less']);
+  gulp.watch(['./src/scss/**/*.scss'], ['sass']);
   gulp.watch(['./src/js/**/*.js'], ['eslint', 'script']);
   gulp.watch(['./gh_pages/css/*.css'], ['csslint']);
 });
