@@ -1,10 +1,11 @@
+var path = require('path');
+
 var gulp = require('gulp'),
   bower = require('bower'),
   eslint = require('gulp-eslint'),
   assemble = require('gulp-assemble'),
   connect = require('gulp-connect'),
   less = require('gulp-less'),
-  path = require('path'),
   runSequence = require('run-sequence'),
   gutil = require('gulp-util'),
   csslint = require('gulp-csslint'),
@@ -20,7 +21,7 @@ var option = {
   assemble: {
     partials: 'src/templates/partials/*.hbs',
     layoutdir: 'src/templates/layouts/',
-    data: 'src/data/*.yml'
+    data: 'src/data/**/*.yml'
   }
 };
 
@@ -68,7 +69,7 @@ gulp.task('csslint', function () {
 });
 
 gulp.task('assemble', function () {
-  return gulp.src('src/pages/*.hbs')
+  return gulp.src('src/pages/**/*.hbs')
     .pipe(assemble(option.assemble))
     .pipe(gulp.dest('tmp'));
 });
