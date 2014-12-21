@@ -41,10 +41,6 @@ gulp.task('setup', function () {
     ])
     .pipe(gulp.dest('_gh_pages/js/lib'));
 
-    gulp.src([
-      './bower_components/normalize-css/normalize.css'
-    ])
-    .pipe(gulp.dest('_gh_pages/css/lib'));
   });
 });
 
