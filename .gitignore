@@ -4,3 +4,5 @@ node_modules/
 _gh_pages/
 tmp/
 .sass-cache/
+dev/
+npm-debug.log

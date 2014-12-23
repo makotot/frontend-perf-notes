@@ -9,6 +9,9 @@
     "jQuery": false,
     "_": true,
     "Backbone": false,
+    "angular": false,
+    "ko": false,
+    "d3": false,
     "alert": false
   },
   "rules": {
@@ -25,10 +28,12 @@
     "max-nested-callbacks": [1, 3],
     "space-infix-ops": [2],
     "radix": [2],
-    "space-unary-word-ops": [2],
+    "space-unary-ops": [2],
     "wrap-regex": [2],
     "no-mixed-requires": [1, true],
     "eol-last": [0],
-    "no-bitwise": [1]
+    "no-bitwise": [1],
+    "dot-notation": [1],
+    "no-wrap-func": [1]
   }
 }
