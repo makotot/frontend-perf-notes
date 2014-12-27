@@ -13,7 +13,7 @@ module.exports = function (grunt) {
     },
 
     clean: {
-      dev: ['<%= path.dev %>']
+      dev: ['<%= path.dev %>', '<%= path.tmp %>', '<%= path.dest %>']
     },
 
     eslint: {
@@ -40,6 +40,20 @@ module.exports = function (grunt) {
       }
     },
 
+    sass: {
+      dev: {
+        files: [
+          {
+            expand: true,
+            cwd: '<%= path.src %>/scss',
+            src: ['*.scss'],
+            dest: '<%= path.dev %>/css',
+            ext: '.css'
+          }
+        ]
+      }
+    },
+
     connect: {
       server: {
         options: {
@@ -59,11 +73,19 @@ module.exports = function (grunt) {
         options: {
           spawn: false
         }
+      },
+      css: {
+        files: ['src/scss/**/*.scss'],
+        tasks: ['sass'],
+        options: {
+          spawn: false
+        }
       }
     }
   });
 
+
   grunt.registerTask('default', ['clean', 'eslint']);
-  grunt.registerTask('compile', ['assemble']);
+  grunt.registerTask('compile', ['assemble', 'sass']);
   grunt.registerTask('serve', ['clean', 'compile', 'connect', 'watch']);
 };
