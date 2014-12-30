@@ -1,12 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
 	<head>
+		<meta charset="utf-8">
 		<title>{{ title }}</title>
+
+		<link href='//fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 		{{# styles }}
 		<link rel="stylesheet" href="./css/{{.}}" />
 		{{/ styles }}
+
 	</head>
 	<body>
-		{{> body }}
+		<div>
+			{{> header }}
+
+			<div class="layout__content">
+				{{> content-header }}
+
+				<div class="layout__content__inner content__inner">
+					{{> body }}
+				</div>
+
+				{{> side-nav }}
+
+			</div>
+		</div>
 	</body>
 </html>

@@ -1,0 +1,43 @@
+@charset 'utf-8';
+
+@import '../utils/extend';
+
+
+.header {
+}
+
+.header__inner  {
+  padding: 0 160px;
+  @extend %clearfix;
+}
+
+.header__title  {
+  float: left;
+
+  > a {
+    display: block;
+    color: #424751;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+}
+
+.header__nav  {
+  float: right;
+}
+
+.header__nav__list  {
+  @extend %clearfix;
+
+  > li  {
+    float: left;
+    padding: 0 0 0 14px;
+
+    > a {
+      display: block;
+      color: #666;
+      text-decoration: none;
+    }
+  }
+}

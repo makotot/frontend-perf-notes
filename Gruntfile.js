@@ -22,8 +22,10 @@ module.exports = function (grunt) {
 
     assemble: {
       options: {
+        marked: {},
         layoutdir: '<%= path.src %>/layouts',
-        partials: ['<%= path.src %>/partials/**/*.hbs']
+        partials: ['<%= path.src %>/partials/**/*.hbs', '<%= path.src %>/markdown/**/*.md'],
+        helpers: ['handlebars-helper-md']
       },
       dev: {
         options: {
@@ -33,7 +35,7 @@ module.exports = function (grunt) {
           {
             expand: true,
             cwd: '<%= path.src %>/pages',
-            src: '**/*.hbs',
+            src: '**/*.{hbs,md}',
             dest: '<%= path.dev %>'
           }
         ]
@@ -68,7 +70,7 @@ module.exports = function (grunt) {
         livereload: true
       },
       html: {
-        files: ['src/**/*.hbs'],
+        files: ['src/**/*.{hbs,md}'],
         tasks: ['assemble'],
         options: {
           spawn: false
