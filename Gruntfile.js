@@ -16,6 +16,19 @@ module.exports = function (grunt) {
       dev: ['<%= path.dev %>', '<%= path.tmp %>', '<%= path.dest %>']
     },
 
+    copy: {
+      dev: {
+        files: [
+          {
+            expand: true,
+            cwd: '<%= path.src %>/scss/vendor/font-awesome/fonts',
+            src: ['*.*'],
+            dest: '<%= path.dev %>/fonts'
+          }
+        ]
+      }
+    },
+
     eslint: {
       target: ['Gruntfile.js']
     },
@@ -89,5 +102,5 @@ module.exports = function (grunt) {
 
   grunt.registerTask('default', ['clean', 'eslint']);
   grunt.registerTask('compile', ['assemble', 'sass']);
-  grunt.registerTask('serve', ['clean', 'compile', 'connect', 'watch']);
+  grunt.registerTask('serve', ['clean', 'copy', 'compile', 'connect', 'watch']);
 };

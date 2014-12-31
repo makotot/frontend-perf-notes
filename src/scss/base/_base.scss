@@ -1,7 +1,20 @@
 @charset 'utf-8';
 
 @import '../vendor/normalize.scss/normalize';
-@import '../vendor/font-awesome';
+
+@import '../vendor/font-awesome/scss/variables';
+@import '../vendor/font-awesome/scss/core';
+@import '../vendor/font-awesome/scss/mixins';
+@import '../vendor/font-awesome/scss/path';
+@import '../vendor/font-awesome/scss/larger';
+@import '../vendor/font-awesome/scss/fixed-width';
+@import '../vendor/font-awesome/scss/list';
+@import '../vendor/font-awesome/scss/bordered-pulled';
+@import '../vendor/font-awesome/scss/spinning';
+@import '../vendor/font-awesome/scss/rotated-flipped';
+@import '../vendor/font-awesome/scss/stacked';
+@import '../vendor/font-awesome/scss/icons';
+
 
 html, body  {
   background-color: #fbfcff;
