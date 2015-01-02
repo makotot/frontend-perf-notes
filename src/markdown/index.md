@@ -43,3 +43,5 @@ load timeの大部分はフロントエンド。
 
 - [Synthetic vs Real User Monitoring (RUM) – SpeedCurve Ideas, Support & Docs](https://speedcurve.uservoice.com/knowledgebase/articles/355134-synthetic-vs-real-user-monitoring-rum)
 - [Synthetic Monitoring vs. Real User Monitoring (RUM)](https://www.apicasystem.com/blog/2014/11/19/synthetic-monitoring-vs-real-user-monitoring-rum-use/)
+
+
