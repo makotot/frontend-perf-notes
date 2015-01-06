@@ -1,6 +1,6 @@
 env:
   global:
-    - GH_REPO="makotot/performance-notes"
+    - GH_REPO="makotot/frontend-perf-notes"
     - GIT_COMMITTER_NAME=makotot
     - GIT_COMMITTER_EMAIL=makoto.ttn@gmail.com
     - GIT_AUTHOR_NAME=makotot
@@ -17,10 +17,10 @@ branches:
     - master
 
 before_script:
-  - npm install -g gulp
+  - npm install -g grunt-cli
 
 script:
-  - gulp ci --type production
+  - grunt build
 
 after_success:
   - ./deploy.sh

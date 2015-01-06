@@ -5,7 +5,7 @@ mkdir deploy
 ls -la
 cd deploy
 
-cp -r ../_gh_pages/* .
+cp -r ../_gh-pages/* .
 
 git init
 git config user.name "${GIT_COMITTER_NAME}"
