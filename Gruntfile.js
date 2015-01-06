@@ -7,6 +7,8 @@ module.exports = function (grunt) {
 
     pkg: grunt.file.readJSON('package.json'),
 
+    config: grunt.file.readYAML('_config.yml'),
+
     path: {
       src: './src',
       dev: './dev',
@@ -54,6 +56,7 @@ module.exports = function (grunt) {
       },
       dev: {
         options: {
+          production: false,
           layout: 'default.hbs'
         },
         files: [
@@ -67,7 +70,9 @@ module.exports = function (grunt) {
       },
       build: {
         options: {
-          layout: 'default.hbs'
+          production: true,
+          layout: 'default.hbs',
+          assets: '<%= config.gh_pages.url %>'
         },
         files: [
           {
