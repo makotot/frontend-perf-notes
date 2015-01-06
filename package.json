@@ -4,7 +4,7 @@
   "description": "",
   "main": "Gruntfile.js",
   "scripts": {
-    "test": "grunt ci"
+    "test": "grunt build"
   },
   "homepage": "https://github.com/makotot/frontend-perf-notes",
   "repository": {

@@ -1,7 +1,7 @@
 node_modules/
 .DS_Store
 .idea/
-_gh_pages/
+_gh-pages/
 tmp/
 .sass-cache/
 dev/

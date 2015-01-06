@@ -28,6 +28,16 @@ module.exports = function (grunt) {
             dest: '<%= path.dev %>/fonts'
           }
         ]
+      },
+      build: {
+        files: [
+          {
+            expand: true,
+            cwd: '<%= path.src %>/scss/vendor/font-awesome/fonts',
+            src: ['*.*'],
+            dest: '<%= path.dest %>/fonts'
+          }
+        ]
       }
     },
 
@@ -54,6 +64,19 @@ module.exports = function (grunt) {
             dest: '<%= path.dev %>'
           }
         ]
+      },
+      build: {
+        options: {
+          layout: 'default.hbs'
+        },
+        files: [
+          {
+            expand: true,
+            cwd: '<%= path.src %>/pages',
+            src: '**/*.{hbs,md}',
+            dest: '<%= path.dest %>'
+          }
+        ]
       }
     },
 
@@ -65,6 +88,17 @@ module.exports = function (grunt) {
             cwd: '<%= path.src %>/scss',
             src: ['*.scss'],
             dest: '<%= path.dev %>/css',
+            ext: '.css'
+          }
+        ]
+      },
+      build: {
+        files: [
+          {
+            expand: true,
+            cwd: '<%= path.src %>/scss',
+            src: ['*.scss'],
+            dest: '<%= path.dest %>/css',
             ext: '.css'
           }
         ]
@@ -86,14 +120,14 @@ module.exports = function (grunt) {
       },
       html: {
         files: ['src/**/*.{hbs,md}'],
-        tasks: ['assemble'],
+        tasks: ['assemble:dev'],
         options: {
           spawn: false
         }
       },
       css: {
         files: ['src/scss/**/*.scss'],
-        tasks: ['sass'],
+        tasks: ['sass:dev'],
         options: {
           spawn: false
         }
@@ -103,6 +137,6 @@ module.exports = function (grunt) {
 
 
   grunt.registerTask('default', ['clean', 'eslint']);
-  grunt.registerTask('compile', ['assemble', 'sass']);
-  grunt.registerTask('serve', ['clean', 'copy', 'compile', 'connect', 'watch']);
+  grunt.registerTask('serve', ['clean', 'copy:dev', 'assemble:dev', 'sass:dev', 'connect', 'watch']);
+  grunt.registerTask('build', ['clean', 'copy:build', 'assemble:build', 'sass:build']);
 };
