@@ -28,7 +28,7 @@ load timeの大部分はフロントエンド。
 
 [YSlow](http://yslow.org/)や[PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/)、[WebPageTest](http://www.webpagetest.org/)、devtoolsなどのツールを利用する。  
 簡易的に問題点を洗い出す時には、[YSlow](http://yslow.org/)や[PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/)で事足りるけど、
-詳細なデータが欲しい場合には、[WebPageTest](http://www.webpagetest.org/)、局所的に計測してチューニングしたい場合はdevtoolsとか。
+詳細なデータが欲しい場合には[WebPageTest](http://www.webpagetest.org/)、局所的に計測してチューニングしたい場合はdevtoolsとか。
 
 - [Measure, Optimize, Automate](http://ponyfoo.com/articles/measure-optimize-automate)
 - [Re-think about Web Performance](http://www.slideshare.net/1000ch/re-think-aboutwebperformance)
@@ -43,5 +43,5 @@ load timeの大部分はフロントエンド。
 
 - [Synthetic vs Real User Monitoring (RUM) – SpeedCurve Ideas, Support & Docs](https://speedcurve.uservoice.com/knowledgebase/articles/355134-synthetic-vs-real-user-monitoring-rum)
 - [Synthetic Monitoring vs. Real User Monitoring (RUM)](https://www.apicasystem.com/blog/2014/11/19/synthetic-monitoring-vs-real-user-monitoring-rum-use/)
-
+- [DIY Synthetic: Private WebPagetest Magic // Speaker Deck](https://speakerdeck.com/jklein/diy-synthetic-private-webpagetest-magic)
 
