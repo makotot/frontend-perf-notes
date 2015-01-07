@@ -57,7 +57,8 @@ module.exports = function (grunt) {
       dev: {
         options: {
           production: false,
-          layout: 'default.hbs'
+          layout: 'default.hbs',
+          assets: '<%= path.dev %>'
         },
         files: [
           {
@@ -72,7 +73,7 @@ module.exports = function (grunt) {
         options: {
           production: true,
           layout: 'default.hbs',
-          assets: '<%= config.gh_pages.url %>'
+          assets: '<%= path.dest %>'
         },
         files: [
           {
