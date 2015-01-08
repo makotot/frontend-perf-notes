@@ -8,6 +8,7 @@
 load timeの大部分はフロントエンド。
 
 
+  - [Useful performance metrics // Speaker Deck](https://speakerdeck.com/benschwarz/useful-performance-metrics)
   - [Performance Testing Crash Course ](http://www.slideshare.net/appdynamics/performance-testing-crash-course)
   - [Improving UX through Front End Performance - Dyn](http://dyn.com/webperf/)
   - [【LED】勉強会①「フロントエンドパフォーマンス向上ルール」](http://www.slideshare.net/itosho/led-study001)
