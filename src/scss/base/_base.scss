@@ -17,9 +17,16 @@
 
 
 html, body  {
-  height: 100%;
   background-color: #fbfcff;
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ';
+}
+
+html  {
+  height: 100%;
+}
+
+body  {
+  min-height: 100%;
 }
 
 a {

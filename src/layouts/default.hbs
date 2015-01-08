@@ -12,22 +12,20 @@
 
 	</head>
 	<body>
-		<div>
-			{{> header }}
+		{{> header }}
 
-			<div class="layout__content">
-				{{> content-header }}
+		<div class="layout__content">
+			{{> content-header }}
 
-				<div class="layout__content__inner content__inner">
-					{{> body }}
-				</div>
-
-				{{> side-nav }}
-
+			<div class="layout__content__inner content__inner">
+				{{> body }}
 			</div>
 
-			{{> footer }}
+			{{> side-nav }}
+
 		</div>
+
+		{{> footer }}
 
 		{{> ga }}
 	</body>
