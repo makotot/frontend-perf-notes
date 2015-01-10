@@ -9,6 +9,10 @@
 .header__inner  {
   padding: 0 160px;
   @extend %clearfix;
+
+  @include max-screen (768px) {
+    padding: 0 5px;
+  }
 }
 
 .header__title  {

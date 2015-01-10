@@ -4,3 +4,6 @@
 [submodule "src/scss/vendor/font-awesome"]
 	path = src/scss/vendor/font-awesome
 	url = https://github.com/FortAwesome/Font-Awesome.git
+[submodule "src/scss/vendor/media-queries"]
+	path = src/scss/vendor/media-queries
+	url = https://github.com/paranoida/sass-mediaqueries.git
