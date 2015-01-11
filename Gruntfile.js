@@ -112,6 +112,17 @@ module.exports = function (grunt) {
     },
 
     cssmin: {
+      dev: {
+        files: [
+          {
+            expand: true,
+            cwd: '<%= path.dev %>/css',
+            src: ['*.css', '!*.min.css'],
+            dest: '<%= path.dev %>/css',
+            ext: '.min.css'
+          }
+        ]
+      },
       build: {
         files: [
           {
@@ -157,6 +168,6 @@ module.exports = function (grunt) {
 
 
   grunt.registerTask('default', ['clean', 'eslint']);
-  grunt.registerTask('serve', ['clean', 'copy:dev', 'assemble:dev', 'sass:dev', 'connect', 'watch']);
-  grunt.registerTask('build', ['clean', 'copy:build', 'assemble:build', 'sass:build', 'cssmin']);
+  grunt.registerTask('serve', ['clean', 'copy:dev', 'assemble:dev', 'sass:dev', 'cssmin:dev', 'connect', 'watch']);
+  grunt.registerTask('build', ['clean', 'copy:build', 'assemble:build', 'sass:build', 'cssmin:build']);
 };
