@@ -49,6 +49,8 @@ module.exports = function (grunt) {
 
     assemble: {
       options: {
+        pkg: '<%= pkg %>',
+        config: '<%= config %>',
         marked: {},
         layoutdir: '<%= path.src %>/layouts',
         partials: ['<%= path.src %>/partials/**/*.hbs', '<%= path.src %>/markdown/**/*.md'],
