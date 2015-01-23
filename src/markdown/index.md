@@ -1,6 +1,8 @@
 
 ## パフォーマンスがなぜ問題なのか
 
+> TIME IS MONEY - [Useful performance metrics // Speaker Deck](https://speakerdeck.com/benschwarz/useful-performance-metrics)
+
 表示速度の低下は、コンバージョン、PV、顧客満足度に影響する。売り上げに直接影響する。  
 
 > 80% of time is front-end - [Speed Matters // Speaker Deck](https://speakerdeck.com/zeman/speed-matters)
@@ -8,7 +10,6 @@
 load timeの大部分はフロントエンド。
 
 
-  - [Useful performance metrics // Speaker Deck](https://speakerdeck.com/benschwarz/useful-performance-metrics)
   - [Performance Testing Crash Course ](http://www.slideshare.net/appdynamics/performance-testing-crash-course)
   - [Improving UX through Front End Performance - Dyn](http://dyn.com/webperf/)
   - [【LED】勉強会①「フロントエンドパフォーマンス向上ルール」](http://www.slideshare.net/itosho/led-study001)
