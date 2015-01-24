@@ -160,7 +160,7 @@ module.exports = function (grunt) {
       },
       css: {
         files: ['src/scss/**/*.scss'],
-        tasks: ['sass:dev'],
+        tasks: ['sass:dev', 'cssmin:dev'],
         options: {
           spawn: false
         }

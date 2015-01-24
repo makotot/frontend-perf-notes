@@ -12,4 +12,8 @@
 
 .footer__github__icon {
   color: #fff;
+
+  &:hover {
+    color: #ccc;
+  }
 }
