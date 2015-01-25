@@ -6,5 +6,16 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 
 ga('create', 'UA-58223460-1', 'auto');
 ga('send', 'pageview');
-ga('send', 'timing');
+
+window.onload = function () {
+
+	var timing = window.performance.timing;
+
+	setTimeout(function () {
+		var loadTime = timing.loadEventEnd - timing.navigationStart;
+
+		ga('send', 'timing', 'loadTime', 'load', loadTime);
+	}, 0);
+
+};
 </script>
