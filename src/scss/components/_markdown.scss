@@ -22,6 +22,10 @@
 
   a {
     color: #38e;
+
+    &:hover {
+      color: #16e;
+    }
   }
 
   ul, ol  {
