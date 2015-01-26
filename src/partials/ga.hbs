@@ -12,9 +12,13 @@ window.onload = function () {
 	var timing = window.performance.timing;
 
 	setTimeout(function () {
-		var loadTime = timing.loadEventEnd - timing.navigationStart;
+		var loadTime = timing.loadEventEnd - timing.navigationStart,
+			ttfb = timing.responseStart - timing.connectEnd,
+			dnsTime = timing.domainLookupEnd - timing.domainLookupStart;
 
-		ga('send', 'timing', 'loadTime', 'load', loadTime);
+		ga('send', 'timing', 'navigationTiming', 'load', loadTime);
+		ga('send', 'timing', 'navigationTiming', 'ttfb', ttfb);
+		ga('send', 'timing', 'navigationTiming', 'dnsTime', dnsTime);
 	}, 0);
 
 };
