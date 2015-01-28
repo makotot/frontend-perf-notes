@@ -54,7 +54,7 @@ module.exports = function (grunt) {
         marked: {},
         layoutdir: '<%= path.src %>/layouts',
         partials: ['<%= path.src %>/partials/**/*.hbs', '<%= path.src %>/markdown/**/*.md'],
-        helpers: ['handlebars-helper-md', 'handlebars-helper-minify']
+        helpers: ['handlebars-helper-md', 'handlebars-helper-minify', 'handlebars-helper-github-pages']
       },
       dev: {
         options: {
