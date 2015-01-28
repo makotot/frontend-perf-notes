@@ -24,7 +24,7 @@
     "grunt-contrib-watch": "^0.6.1",
     "grunt-eslint": "^5.1.0",
     "handlebars-helper-md": "^0.2.0",
-    "handlebars-helper-minify": "^0.1.3",
+    "handlebars-helper-minify": "git://github.com/makotot/handlebars-helper-minify#update-minifier",
     "jit-grunt": "^0.9.0",
     "time-grunt": "^1.0.0"
   }
