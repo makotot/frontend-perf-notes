@@ -16,12 +16,14 @@ window.onload = function () {
 			ttfb = timing.responseStart - timing.connectEnd,
 			dnsTime = timing.domainLookupEnd - timing.domainLookupStart,
 			tcp = timing.connectEnd - timing.connectStart,
+			response = timing.responseEnd - timing.responseStart,
 			dom = timing.domComplete - timing.domLoading;
 
 		ga('send', 'timing', 'navigationTiming', 'load', loadTime);
 		ga('send', 'timing', 'navigationTiming', 'ttfb', ttfb);
 		ga('send', 'timing', 'navigationTiming', 'dns', dnsTime);
 		ga('send', 'timing', 'navigationTiming', 'tcp', tcp);
+		ga('send', 'timing', 'navigationTiming', 'response', response);
 		ga('send', 'timing', 'navigationTiming', 'dom', dom);
 	}, 0);
 
