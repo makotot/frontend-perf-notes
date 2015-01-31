@@ -3,9 +3,9 @@
 .markdown {
 
   h2  {
+    border-bottom: 1px solid #ddd;
     margin: 0 0 10px;
     padding: 40px 0 6px;
-    border-bottom: 1px solid #ddd;
   }
 
   h3  {
@@ -14,10 +14,10 @@
   }
 
   blockquote  {
+    border-left: 4px solid #ddd;
+    color: #777;
     margin: 0;
     padding: 0 10px;
-    color: #777;
-    border-left: 4px solid #ddd;
   }
 
   a {
@@ -28,9 +28,10 @@
     }
   }
 
-  ul, ol  {
-    padding: 6px 0;
-    margin: 0 20px;
+  ul,
+  ol  {
     list-style-type: disc;
+    margin: 0 20px;
+    padding: 6px 0;
   }
 }

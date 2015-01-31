@@ -1,0 +1,16 @@
+linters:
+  LeadingZero:
+    enabled: true
+    style: include_zero
+
+  SpaceBeforeBrace:
+    enabled: false
+
+  SelectorFormat:
+    enabled: false
+
+  DeclarationOrder:
+    enabled: false
+
+  PropertySortOrder:
+    enabled: false

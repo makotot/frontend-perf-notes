@@ -3,8 +3,8 @@
 @import '../utils/extend';
 
 
-.header {
-}
+//.header {
+//}
 
 .header__inner  {
   padding: 0 160px;
@@ -19,8 +19,8 @@
   float: left;
 
   > a {
-    display: block;
     color: #424751;
+    display: block;
     font-size: 20px;
     font-weight: bold;
     text-decoration: none;

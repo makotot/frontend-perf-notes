@@ -1,7 +1,9 @@
 module.exports = function (grunt) {
 
   require('time-grunt')(grunt);
-  require('jit-grunt')(grunt);
+  require('jit-grunt')(grunt, {
+    scsslint: 'grunt-scss-lint'
+  });
 
   grunt.initConfig({
 
@@ -45,6 +47,14 @@ module.exports = function (grunt) {
 
     eslint: {
       target: ['Gruntfile.js']
+    },
+
+    scsslint: {
+      options: {
+        config: '.scss-lint.yml',
+        colorizeOutput: true
+      },
+      allFiles: ['<%= path.src %>/scss/**/*.scss', '!<%= path.src %>/scss/vendor/**/*.scss']
     },
 
     assemble: {
@@ -169,7 +179,7 @@ module.exports = function (grunt) {
   });
 
 
-  grunt.registerTask('default', ['clean', 'eslint']);
-  grunt.registerTask('serve', ['clean', 'copy:dev', 'assemble:dev', 'sass:dev', 'cssmin:dev', 'connect', 'watch']);
-  grunt.registerTask('build', ['clean', 'copy:build', 'assemble:build', 'sass:build', 'cssmin:build']);
+  grunt.registerTask('default', ['clean', 'eslint', 'scsslint']);
+  grunt.registerTask('serve', ['clean', 'copy:dev', 'assemble:dev', 'sass:dev', 'scsslint', 'cssmin:dev', 'connect', 'watch']);
+  grunt.registerTask('build', ['clean', 'copy:build', 'assemble:build', 'sass:build', 'scsslint', 'cssmin:build']);
 };

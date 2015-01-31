@@ -18,7 +18,8 @@
 @import '../vendor/font-awesome/scss/icons';
 
 
-html, body  {
+html,
+body  {
   background-color: #fbfcff;
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ';
 }
@@ -35,12 +36,18 @@ a {
   color: #333;
 }
 
-ul, ol  {
+ul,
+ol  {
   list-style-type: none;
-  padding: 0;
   margin: 0;
+  padding: 0;
 }
 
-h1, h2, h3, h4, h5, h6  {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6  {
   margin: 0;
 }
