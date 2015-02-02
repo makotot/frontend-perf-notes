@@ -27,7 +27,7 @@
     "handlebars-helper-github-pages": "0.0.1",
     "handlebars-helper-md": "^0.2.0",
     "handlebars-helper-minify": "git://github.com/makotot/handlebars-helper-minify#update-minifier",
-    "jit-grunt": "^0.9.0",
+    "jit-grunt": "^0.9.1",
     "time-grunt": "^1.0.0"
   }
 }
